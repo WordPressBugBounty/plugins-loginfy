@@ -1,6 +1,6 @@
 <style media="screen" class="loginfy-style-wp">
 	body.loginfy-login-customizer .login-background {
-		background: url('<?php echo esc_url_raw(LOGINFY_IMAGES . 'backgrounds/login-bg-04.png'); ?>');
+		background: url('<?php echo esc_url_raw(LOGINFY_IMAGES . 'backgrounds/login-bg-04.webp'); ?>');
 		background-attachment: fixed;
 		background-position: 45% 150px;
 		background-repeat: no-repeat;

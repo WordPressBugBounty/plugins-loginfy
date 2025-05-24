@@ -1,4 +1,9 @@
 == Changelog ==
+= 1.0.3.8 (24-05-2025) =
+* Updated: Freemius SDK Updated and moved on vendor as per WordPress.org requirements
+* Updated: Background Image Size Compressed and webp format
+
+
 = 1.0.3.7 (03-03-2025) =
 * Fixed: Loginfy Customizer panel other section settings hide lost password link while hiding back to wordpress button.
 * Fixed: Loginfy Customizer panel showing Privacy Policy link twice.

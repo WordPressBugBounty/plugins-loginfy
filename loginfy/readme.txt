@@ -3,8 +3,8 @@ Contributors: litonice13, pixarlabs, jwthemeltd
 Donate link: https://www.buymeacoffee.com/jeweltheme
 Tags: Login customizer, Login page, WordPress login, Login, Customize
 Requires at least: 4.0
-Tested up to: 6.7.2
-Stable tag: 1.0.3.7
+Tested up to: 6.8
+Stable tag: 1.0.3.8
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html

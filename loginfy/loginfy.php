@@ -4,7 +4,7 @@
  * Plugin Name: Loginfy
  * Plugin URI:  https://jeweltheme.com
  * Description: WordPress Login Page Customizer Plugin
- * Version:     1.0.3.7
+ * Version:     1.0.3.8
  * Author:      Jewel Theme
  * Author URI:  https://wpadminify.com/loginfy
  * Text Domain: loginfy
@@ -71,6 +71,8 @@ if ( !defined( 'LOGINFY_ASSETS' ) ) {
 if ( !defined( 'LOGINFY_IMAGES' ) ) {
     define( 'LOGINFY_IMAGES', LOGINFY_ASSETS . 'images/' );
 }
+// Autoload Files.
+include_once LOGINFY_DIR . '/vendor/autoload.php';
 if ( !function_exists( 'loginfy' ) ) {
     // Create a helper function for easy SDK access.
     function loginfy() {
@@ -81,20 +83,22 @@ if ( !function_exists( 'loginfy' ) ) {
                 define( 'WP_FS__PRODUCT_15290_MULTISITE', true );
             }
             // Include Freemius SDK.
-            require_once LOGINFY_LIBS . '/freemius/start.php';
+            // SDK is auto-loaded through composer
             $loginfy = fs_dynamic_init( array(
-                'id'             => '15290',
-                'slug'           => 'loginfy',
-                'first-path'     => admin_url( 'customize.php?autofocus[panel]=loginfy_panel' ),
-                'premium_slug'   => 'loginfy-pro',
-                'type'           => 'plugin',
-                'premium_suffix' => 'Pro',
-                'public_key'     => 'pk_970cd387f2278010a4df61a57eaf0',
-                'is_premium'     => false,
-                'has_addons'     => false,
-                'has_paid_plans' => true,
-                'navigation'     => 'tabs',
-                'menu'           => array(
+                'id'               => '15290',
+                'slug'             => 'loginfy',
+                'first-path'       => admin_url( 'customize.php?autofocus[panel]=loginfy_panel' ),
+                'premium_slug'     => 'loginfy-pro',
+                'type'             => 'plugin',
+                'premium_suffix'   => 'Pro',
+                'public_key'       => 'pk_970cd387f2278010a4df61a57eaf0',
+                'is_premium'       => false,
+                'has_addons'       => false,
+                'has_paid_plans'   => true,
+                'is_org_compliant' => true,
+                'navigation'       => 'tabs',
+                'has_affiliation'  => 'selected',
+                'menu'             => array(
                     'account'     => false,
                     'support'     => false,
                     'contact'     => false,
@@ -102,7 +106,7 @@ if ( !function_exists( 'loginfy' ) ) {
                     'network'     => false,
                     'affiliation' => false,
                 ),
-                'is_live'        => true,
+                'is_live'          => true,
             ) );
         }
         return $loginfy;
@@ -114,8 +118,6 @@ if ( !function_exists( 'loginfy' ) ) {
     do_action( 'loginfy_loaded' );
 }
 if ( !class_exists( '\\Loginfy\\Loginfy' ) ) {
-    // Autoload Files.
-    include_once LOGINFY_DIR . '/vendor/autoload.php';
     // Instantiate Loginfy Class.
     include_once LOGINFY_DIR . '/class-loginfy.php';
 }
