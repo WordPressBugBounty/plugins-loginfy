@@ -220,9 +220,9 @@ if ( ! class_exists( 'Core' ) ) {
 				esc_html__('Login Customizer', 'loginfy'),
 				esc_html__('Login Customizer', 'loginfy'),
 				apply_filters('jlt_loginfy_capability', 'manage_options'),
-				esc_url( admin_url('customize.php?autofocus[panel]=loginfy_panel') )
-				// '__return_null',
-				// $submenu_position
+				'loginfy-customizer',
+				[$this, 'jlt_loginfy_redirect_customizer'],
+				$submenu_position
 			);
 		}
 

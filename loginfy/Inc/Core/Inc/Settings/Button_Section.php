@@ -18,16 +18,16 @@ class Button_Section extends Customize_Model {
             'button_size'                => '',
             'button_font_size'           => '',
             'login_form_button_settings' => [
-                'button_bg'                => 'transparent',
-                'button_text_color'        => '',
+                'button_bg'                => '#2271B1',
+                'button_text_color'        => '#fff',
                 'button_text_shadow'       => [
                     'ts_color' => 'transparent',
                     'ts_blur'  => '',
                     'ts_hz'    => '',
                     'ts_ver'   => '',
                 ],
-                'button_bg_hover'          => 'transparent',
-                'button_text_hover'        => 'transparent',
+                'button_bg_hover'          => '#135E96',
+                'button_text_hover'        => '#fff',
                 'button_text_shadow_hover' => [
                     'ts_hover'      => 'transparent',
                     'ts_blur_hover' => '',

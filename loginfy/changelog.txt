@@ -1,4 +1,7 @@
 == Changelog ==
+= 1.0.3.9 (12-08-2025) =
+* Fixed: Wrong URL on "WP Adminify" submenu "Login Customizer" on Admin Bar Editor issue fixed.
+
 = 1.0.3.8 (24-05-2025) =
 * Updated: Freemius SDK Updated and moved on vendor as per WordPress.org requirements
 * Updated: Background Image Size Compressed and webp format
