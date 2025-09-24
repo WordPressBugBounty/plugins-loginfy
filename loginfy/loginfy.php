@@ -4,7 +4,7 @@
  * Plugin Name: Loginfy
  * Plugin URI:  https://jeweltheme.com
  * Description: WordPress Login Page Customizer Plugin
- * Version:     1.0.3.9
+ * Version:     1.0.4.0
  * Author:      Jewel Theme
  * Author URI:  https://wpadminify.com/loginfy
  * Text Domain: loginfy

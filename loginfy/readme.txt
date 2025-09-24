@@ -1,275 +1,180 @@
-=== Loginfy - Custom Login Page Customizer ===
+=== Loginfy - Custom Login Page Customizer plugin ===
 Contributors: litonice13, pixarlabs, jwthemeltd
 Donate link: https://www.buymeacoffee.com/jeweltheme
-Tags: Login customizer, Login page, WordPress login, Login, Customize
+Tags: custom login page, login customizer, wordpress login page, white label login, login page customizer
 Requires at least: 4.0
 Tested up to: 6.8
-Stable tag: 1.0.3.9
+Stable tag: 1.0.4.0
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Loginfy is a plugin designed for customizing login pages, admin login pages, client login pages, and register pages, enabling effortless layout customization.
+Custom login page customizer for WordPress. 16+ templates, live preview, white-label options. Perfect for agencies, businesses & freelancers branding their site.
 
 == Description ==
-[Loginfy](https://wpadminify.com/loginfy/?utm_source=loginfy_org&utm_medium=plugin_description) allows users to easily customize their WordPress login page, providing a unique and personalized experience for website administrators and users. With a user-friendly interface, this plugin offers a comprehensive set of features to enhance the visual appeal and functionality of the login page.
 
-[Live Demo](https://demo.pixarlabs.com/?pl-product=loginfy) | [Docs](https://wpadminify.com/docs/loginfy/customize-wordpress-login-page)  | [Upgrade to Pro](https://wpadminify.com/loginfy/pricing)
+**Tired of the generic WordPress login page?** Loginfy is the ultimate solution for agencies, freelancers, and business owners who want to **completely customize their WordPress login page** without touching a single line of code. This powerful **login page customizer** plugin integrates directly into the WordPress Customizer, giving you a live preview of every change as you build your perfect **custom login page**.
 
-== Why Choose Loginfy? ==
+Unlike basic plugins, Loginfy offers an amazing depth of customization. Go beyond simple colors and logos with advanced features like **two-column login page layouts**, **video and slideshow backgrounds**, **Google Fonts integration**, and the ability to edit every piece of text, including error messages. Whether you need a minimalist design or a fully branded client portal, Loginfy provides the tools to make your **WordPress login page** an extension of your website's design.
 
-- **Comprehensive Customization**: Customize every element of your login page, from logos and backgrounds to form fields and buttons.
-- **Live Preview**: Instantly see the changes you make, ensuring your login page looks exactly how you want it.
-- **Responsive Design**: Your custom login page will look great on any device, providing a consistent experience for all users.
-- **Multilingual Support**: Ready for global audiences with WPML compatibility and translation readiness.
-- **Language Switcher**: Enable/Disable Language Switcher in Login Page
+**→ [Live Demo](https://demo.pixarlabs.com/?pl-product=loginfy) | [Documentation](https://wpadminify.com/docs/loginfy/customize-wordpress-login-page) | [Upgrade to Pro](https://wpadminify.com/loginfy/pricing)**
 
-== Getting Started with Loginfy ==
+== Why Choose Loginfy? The Best WordPress Login Customizer ==
 
-**Custom Logo Options**
+Why settle for a basic plugin when you can have a complete visual builder for your login page? Here’s what makes Loginfy the top choice for **customizing your WordPress login page**:
 
-- Create text-only, image-only, or combined text-and-image logos.
-- Remove logo completely for minimalist design.
-- Adjust logo width and height precisely.
-- Customize logo link URL and page title.
-- Advanced logo padding adjustment capabilities. (PRO)
-- Typography customization for logo text. (PRO)
+*   **16+ Pre-Built Templates:** Start designing in seconds with a diverse collection of professional templates. More templates than any other plugin.
+*   **True Live Preview:** See every change instantly with our real-time customizer. No saving and refreshing required - what you see is what you get.
+*   **Most Granular Control:** Customize everything. From the main background down to the padding on a single form field, no detail is overlooked.
+*   **Advanced Layouts:** Break away from the standard centered box. Create modern **two-column login pages** and position the form in 9 different locations.
+*   **White Label & Branding:** Perfect for agencies. Remove "Powered by WordPress" links, customize error messages, and present a completely white-labeled experience to your clients.
+*   **100% Mobile Responsive:** Every design you create is guaranteed to look flawless on desktops, tablets, and mobile devices.
 
-**Color Scheme Customization**
+== Who Is Loginfy For? ==
 
-- Select custom colors for every page element.
-- Create and save custom color schemes.
-- Use advanced color picker for precise color selection.
-- Apply professional gradient color schemes.
+Loginfy is the essential **WordPress login page plugin** for:
 
-**Typography Customization**
+*   **WordPress Agencies & Freelancers:** Provide a seamless, branded experience for your clients by **white-labeling the WordPress login page**.
+*   **Business & E-commerce Sites:** Strengthen brand trust and provide a professional login experience for customers and subscribers.
+*   **Membership & Community Sites:** Customize the gateway for your members to enhance engagement and security.
+*   **Bloggers & Creators:** Add a personal touch to your website's backend and make a great impression on contributors.
+*   **Any WordPress User:** Easily replace the default login page with a beautiful, custom-designed one in minutes, no skills required.
 
-- Access to complete Google Fonts library. (PRO)
-- Customize font sizes for all text elements.
-- Adjust text styles and weights.
-- Control letter spacing and line height.
+== Features: The Most Comprehensive Login Page Customizer ==
 
-**Login Form Customization**
+### 🎨 Template Library & Background Customization
+*   **16 Pre-Designed Templates:** Choose from a wide variety of modern designs for your **custom login page**.
+*   **Background Types:** Set solid colors, images, gradients, videos, or dynamic image slideshows as your login page background.
+*   **Advanced Background Controls:** Precise control over position, repeat, attachment (fixed/scroll), and size (cover, contain, custom).
+*   **Video Backgrounds (PRO):** Use self-hosted videos or YouTube links to create captivating login pages.
+*   **Background Overlay:** Add color or gradient overlays with opacity control to improve text readability.
 
-- Set custom form background colors or images.
-- Apply gradient backgrounds to forms. (PRO)
-- Control form width and height.
-- Customize form margins.(PRO)
-- Adjust form padding. (PRO)
-- Style form borders individually for each side.
-- Choose from multiple border styles.
-- Set custom border colors.
-- Add border radius effects. (PRO)
-- Apply box shadow effects with color, position, blur, and spread control. (PRO).
+### 🔍 Logo & Branding Customization
+*   **Logo Type:** Choose from Text-only, Image-only, or a combination of both. Option to remove the logo completely.
+*   **Logo Styling:** Precisely adjust the logo width, height, and padding for perfect alignment.
+*   **Logo Link & Title:** Change the logo URL to link to your homepage or any other page and customize the hover title text.
+*   **Advanced Logo Typography (PRO):** Customize the font family, size, and weight of your text logo.
 
-**Button Styling**
+### 📐 Advanced Layout & Form Positioning
+*   **Layout Selection:** Switch between traditional single-column and modern two-column layouts.
+*   **Form Positioning:** Place your login form in one of **nine distinct locations** on the page (top-left, center, bottom-right, etc.).
+*   **Column Alignment:** Control the vertical and horizontal alignment of your layout columns.
+*   **Side Section Styling:** Apply unique backgrounds, gradients, and even skew effects to the side column in two-column layouts.
 
-- Set custom button dimensions. (PRO)
-- Control button font size.
-- Customize normal state background and text colors.
-- Style hover state with different colors and effects.
-- Add text shadow effects. (PRO)
-- Control button margins and padding.
-- Style button borders and radius. (PRO)
-- Apply custom box shadow effects. (PRO).
+### ✏️ Login Form & Field Customization
+*   **Form Background:** Set a custom color, image, or gradient background for the entire login form.
+*   **Form Dimensions:** Control the width, height, margin, and padding of the login form container.
+*   **Form Styling:** Add custom borders (style, color, width), border radius, and advanced box shadow effects.
+*   **Field Label & Placeholder Text:** Change the text for "Username", "Password", "Remember Me", and more to match your language or tone.
+*   **Input Field Styling:** Customize the background color, border, radius, text color, and font size of the username and password fields.
 
-**Forgotten Password Customization**
+### 🔘 Button & Interaction Customization
+*   **Button Styling:** Customize the button dimensions, background color, text color, and font size for both normal and hover states.
+*   **Advanced Button Effects:** Add text shadows, customize borders and radius, and apply box shadow effects for a premium look.
+*   **Form Footer Links:** Control the display and styling of the "Lost your password?" and "Back to website" links.
 
-- The forgotten password prompt aligns with your custom design.
+### ⚙️ Utility & Security Tweaks
+*   **Toggle Elements:** Easily hide the "Remember Me" checkbox, the "Lost Password" link, or the "Back to Website" link for a cleaner interface or enhanced security.
+*   **Disable Login Shake:** Turn off the default WordPress shake effect for a smoother user experience.
+*   **Custom Error Messages:** Personalize the error messages for incorrect usernames, empty passwords, and other login failures.
+*   **Language Switcher:** Enable or disable the language switcher on the login page for multilingual sites.
 
-**Custom CSS and JS**
+### 🛠️ Advanced Customization
+*   **Custom CSS & JS:** For ultimate control, add your own custom CSS or JavaScript to implement unique designs and functionalities.
+*   **Google Fonts Integration (PRO):** Access the entire Google Fonts library to typography across your entire login page.
+*   **Credit Control:** Choose to show or hide the "Powered by Loginfy" credit in the footer.
 
-- Inject custom CSS or JavaScript for unique personalization.
+== Upcoming Pro Features: Beyond Customization ==
 
-**Live Preview**
+We are continuously enhancing Loginfy to be the most powerful login-related plugin available.
 
-- Real-time preview of changes to ensure accuracy before going live.
+**Advanced reCAPTCHA Integration (Coming Soon!)**
 
-**Responsive Design**
+*   Add robust Google reCAPTCHA (v2 & v3) to protect your login, registration, and password reset forms from bots and automated attacks.
 
-- A mobile-friendly interface that adapts to any screen size.
+**Limit Login Attempts (Coming Soon!)**
 
-**Background Customization**
+*   Prevent brute force attacks with an intelligent system that limits login attempts, locks out suspicious IPs, and sends you security notifications.
 
-- Set solid color backgrounds with precise color selection.
-- Upload and customize image backgrounds with position control. (left top, left center, right top, etc.)
-- Configure background repeat settings. (no-repeat, repeat-x, repeat-y, repeat)
-- Set background attachment type. (fixed or scroll)
-- Control background size. (cover, contain, auto, custom)
-- Add video backgrounds with self-hosted or YouTube options. (PRO)
-- Enable video looping and custom poster images. (PRO)
-- Create dynamic image slideshows with gallery integration. (PRO)
-- Apply professional gradient backgrounds with dual-color selection.
-- Set gradient orientation. (left to right, top to bottom)
-- Access advanced gradient positions and angles. (PRO).
+== Discover Our Other Premium WordPress Plugins ==
 
-**Overlay Options**
+Enhance your WordPress experience with our other powerful plugins:
 
-- Add solid color overlays with opacity control.
-- Create gradient overlays with custom colors.
-- Adjust overlay opacity levels.
-- Set overlay gradient orientation.
-- Access advanced overlay positioning. (PRO)
-
-**Error Message Customization**
-
-- Modify error messages for a personalized touch.
-
-**Multilingual Support**
-
-- Ready for global audiences with translation capabilities.
-
-**Pre-built Templates**
-
-- 4 ready-to-use templates for the free version.
-- 12 ready-to-use templates for pro supporter.
-
-**Mobile Optimization**
-
-- Automatically responsive design.
-- Touch-friendly interface elements.
-- Smart layout adjustments for all screen sizes.
-- Optimized loading speed for mobile devices.
-
-**Login Page URL and Title Customization**
-
-- Change the login page logo URL and title for better brand recognition.
-
-**Layout Customization**
-
-- Choose between single-column or two-column layouts.
-- Set column alignment (top, bottom, left, right).
-- Position login form in nine different locations.
-- Style side backgrounds with colors or images.
-- Apply gradient effects to side backgrounds.
-- Add unique skew effects to side sections.
-- Access advanced orientation options. (PRO)
-
-**Label and Placeholder Text Customization**
-
-- Edit label and placeholder text to meet your language and style requirements.
-
-**Field Customization**
-
-- Edit label text and styling.
-- Control label and field font sizes.
-- Set custom field heights.
-- Modify field background colors. (PRO)
-- Style field borders and radius. (PRO)
-- Customize placeholder text and colors.
-
-**Additional Customization Options**
-
-- Hide the 'Remember Me' option for a cleaner interface.
-- Disable the login shake effect for a smoother experience.
-- Remove lost passwords and 'Back to website' links for enhanced security.
-- Control back to website link display
-- Customize all error messages
-- Add custom CSS code
-- Insert custom JavaScript
-- Manage credit display and styling
-
-**Language Support**
-
-- Full translation capability.
-- WPML compatibility included.
-- RTL language support.
-- Custom text modificaton options.
-
-**Error Message Personalization**
-
-- Customize error messages for username, password, and email fields.
-
-**Loginfy Credits**
-
-- Option to enable or disable the 'Powered by Loginfy' credit, available in the free version.
-
-
-> <strong>Ensuring Mobile-Friendly WordPress Login Page Customization</strong><br>
-
-> Our plugin is designed to be responsive, ensuring that any customization you apply to the login page will result in an appealing and user-friendly display on mobile devices.
-
-== Upcoming features ==
-
-**Advanced reCAPTCHA Protection**
-
-We're excited to announce our upcoming Google reCAPTCHA integration, which will soon enhance your WordPress login security with robust protection against automated bot attacks and unauthorized access attempts. Once implemented, this new feature will offer seamless integration with your customized login page, supporting both invisible and visible CAPTCHA options. The security enhancement will extend beyond just the login form to secure password reset forms, registration pages, and comment sections. Site administrators will be able to choose between reCAPTCHA v2 and v3, customize CAPTCHA appearance to match their login page design, and enable real-time threat detection. When launched, the system will automatically adapt its security level based on user behavior, providing a frictionless experience for legitimate users while maintaining maximum protection against automated threats.
-
-**Limit Login Attempts**
-
-Coming soon to Loginfy is our sophisticated login attempt limiting system. This comprehensive protection feature will include IP-based login monitoring, customizable lockout durations, and automated security responses to prevent brute force attacks. Once released, site administrators will be able to set custom thresholds for failed login attempts, configure progressive lockout periods, and receive instant email notifications about suspicious activities. The planned system will maintain detailed security logs of all login attempts, support IP whitelisting and blacklisting, and enable country-based access restrictions for enhanced geographical security control. This upcoming feature will include custom lockout messages, real-time threat monitoring, and integrated security reporting, transforming your WordPress login page into a secure gateway while maintaining its custom designed appearance.
+*   **[WP Adminify](https://wordpress.org/plugins/adminify/):** The ultimate WordPress admin dashboard customizer. White label, improve security, add dark mode, manage menus, and boost productivity.
+*   **[Admin Bar Editor](https://wordpress.org/plugins/admin-bar/):** Take full control of the WordPress admin bar. Remove clutter, add shortcuts, and personalize the user experience.
+*   **[WP Spotlight](https://wordpress.org/plugins/spotlight/):** A lightning-fast search tool for your WordPress dashboard. Find and manage posts, pages, users, and more instantly.
+*   **[Master Addons](https://wordpress.org/plugins/master-addons/):** Supercharge Elementor with 70+ advanced elements and extensions for designing any type of website.
+*   **[Master Blocks](https://wordpress.org/plugins/ultimate-blocks-for-gutenberg/):** Extend the Gutenberg block editor with a powerful collection of new and versatile blocks.
 
 == Installation ==
-1. Upload the 'loginfy' folder to the '/wp-content/plugins/' directory, or install the plugin directly from the WordPress plugin repository.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Navigate to the 'Loginfy' option in the WordPress admin panel.
-4. Customize your login page by selecting various options and configuring the desired settings.
-5. Save your changes and preview the login page to see the modifications in action.
 
+Installing and setting up Loginfy is a simple process:
 
-
-### Liked Loginfy Plugins?
-Rate us on [WordPress Forum](https://wordpress.org/support/plugin/loginfy/reviews/#new-post) ðŸ™‚
-
-
-== Support ==
-[Support Forum](https://wordpress.org/support/plugin/loginfy/#new-topic-0)
-[Pre-Sale Questions](https://wpadminify.com/contact)
-[Facebook Group](https://www.facebook.com/groups/jeweltheme)
-
-
-== Want More - ==
-
-If you like our Loginfy plugin then why not check some other plugins that developed by us:
-
-[WP Adminify:](https://wordpress.org/plugins/adminify/) - Customize and optimize your WordPress dashboard with WP Adminify. This all-in-one plugin offers features such as white label branding, security, performance features for admins and users, dark mode, menu editor, folders, dashboard widget manager, admin columns, activity logs and much more.  Perfect for freelancers and agencies with multisite management needs
-
-[Admin Bar Editor:](https://wordpress.org/plugins/admin-bar/) - Ever felt overwhelmed by the default WordPress admin bar? Admin Bar Editor allows you to take control and customize it to your specific needs. Remove unnecessary links, add shortcuts to frequently used tools, and personalize the greeting message – all to create a streamlined and efficient admin experience.
-
-[WP Spotlight:](https://wordpress.org/plugins/spotlight/) - WP Spotlight is a powerful WordPress plugin that brings lightning-fast search to your dashboard. Effortlessly find and interact with posts, pages, users, plugins, and more, all from a single, intuitive interface. Take immediate action on search results, including editing, deleting, and updating. Streamline your workflow, save time, and enhance your WordPress experience with this essential productivity tool.
-
-[Master Addons:](https://wordpress.org/plugins/master-addons/) - One of the best Elementor Addon plugin that packed with 70+ elements and extensions. You will get all essential elements to design any type Website.
-
-[Master Blocks:](https://wordpress.org/plugins/ultimate-blocks-for-gutenberg/) - "Master Blocks" is a powerful WordPress plugin designed to enhance the functionality of the Gutenberg block editor. With this plugin, users can unlock a wide range of new blocks, offering greater flexibility and creativity when designing and customising their website's content.
-
-[Image Comparison for Elementor:](https://wordpress.org/plugins/image-comparison-elementor-addon/) - This plugin dedicatedly made for image comparison element. You will get a multiple variation for image comparison. Showcase your before after work easily with the help of this plugin.
-
-[Master Accordion:](https://wordpress.org/plugins/wp-awesome-faq/) - If you are a default WordPress user and need a proper accordion plugin then Master Accordion is for you. You can add as much accordion as you need in multiple way.
+1.  **Upload the Plugin:** Upload the `loginfy` folder to your `/wp-content/plugins/` directory, or search for "Loginfy" in your WordPress dashboard under "Plugins > Add New" and install it directly.
+2.  **Activate the Plugin:** Navigate to the 'Plugins' menu in your WordPress admin area and click 'Activate' under the Loginfy plugin.
+3.  **Start Customizing:** Go to **Appearance > Customize** in your WordPress admin menu. You will see a new section called **"Loginfy"**. Click on it to open the live customizer and begin designing your login page.
+4.  **Preview & Publish:** Use the live preview to see your changes in real-time. Once you are satisfied, click "Publish" to make your new custom login page live.
 
 == Frequently Asked Questions ==
 
 = What is Loginfy? =
-Loginfy is a powerful plugin that allows you to customize the login page of your WordPress site, enhancing branding and user experience.
+Loginfy is a powerful **WordPress plugin** that allows you to completely **customize your WordPress login page** directly from the WordPress Customizer, with no coding skills required.
 
-= Is Loginfy responsive? =
-Yes, Loginfy ensures that your login page is fully responsive and looks great on all devices.
+= Is Loginfy mobile-friendly? =
+Absolutely. Loginfy is built with a 100% responsive design. Any customization you apply will automatically adapt to look perfect on all devices, including smartphones and tablets.
 
-= Can I preview my changes before publishing? =
-Absolutely! Loginfy's live preview feature allows you to see your changes in real-time.
+= Can I see my changes before making them live? =
+Yes! Loginfy features a **true live preview**. As you adjust settings in the customizer, you see the changes happen instantly on a preview of your login page.
 
-= Will customizing the login page affect the functionality of my WordPress website? =
-No, this plugin only modifies the appearance of the login page. It does not interfere with the core functionality or any other aspect of your WordPress website.
+= Will customizing the login page affect my site's security or functionality? =
+No. Loginfy only changes the visual appearance and text of your login page. It does not interfere with WordPress core security or the login functionality itself.
 
-= Can I revert to the default login page design if I change my mind? =
-Yes, you can easily revert to the default WordPress login page design by deactivating or uninstalling the plugin.
+= Can I revert to the default WordPress login page? =
+Yes. You can return to the default login page at any time by simply deactivating the Loginfy plugin. Your settings will be saved if you reactivate it later.
 
-= Will my customizations be retained during plugin updates? =
-Yes, your customizations will remain intact when you update the plugin. However, it's always recommended to backup your settings before performing any updates.
+= Are my customizations saved during plugin updates? =
+Yes, all your customizations are stored in your WordPress database and will remain intact when you update the Loginfy plugin.
+
+= Do you offer pre-sale support? =
+Of course! If you have questions before purchasing the Pro version, please visit our website and use the [contact form](https://wpadminify.com/contact).
+
+== Screenshots ==
+
+1. Choose from 16+ Pre-built Templates - Quickly launch your design with a variety of modern templates.
+2. Complete Background Control - Set colors, images, gradients, videos, or slideshows as your login page background.
+3. Field & Button Customization - Style every form field, label, and the login button with precision.
+4. Advanced Two-Column Layouts - Create modern login pages with side-by-side layouts and custom column styling.
+5. Login Form Styling with Logo - Customize the form's background, size, borders, shadows, and positioning.
+
+== Support ==
+We are dedicated to providing excellent support.
+
+*   **Free Plugin Support:** [WordPress.org Support Forum](https://wordpress.org/support/plugin/loginfy/#new-topic-0)
+*   **Pre-Sale Questions:** [Contact Us](https://wpadminify.com/contact)
+*   **Community:** [Join our Facebook Group](https://www.facebook.com/groups/jeweltheme)
+
+== Changelog ==
+
+= 1.0.4.0 (24-09-2025) =
+* Security Patch: Updated SDK to provide better security
+* UI Improvement: Ui Updated for better UX.
+
+= 1.0.3.9 (12-08-2025) =
+* Fixed: Wrong URL on "WP Adminify" submenu "Login Customizer" on Admin Bar Editor issue fixed.
+
+= 1.0.3.8 (24-05-2025) =
+* Updated: Freemius SDK Updated and moved on vendor as per WordPress.org requirements
+* Updated: Background Image Size Compressed and webp format
 
 
-=== Screenshots ===
-1. 16 Pre built Template
-2. Add color, image, video, slideshow, gradient as Background
-3. Customize the Login page button
-4. Two column login page design
-5. Change logo type and login page title
+= 1.0.3.7 (03-03-2025) =
+* Fixed: Loginfy Customizer panel other section settings hide lost password link while hiding back to wordpress button.
+* Fixed: Loginfy Customizer panel showing Privacy Policy link twice.
+* Fixed: Loginfy Customizer panel other section settings missing condition for Language Switcher.
+* Update: Freemius SDK Updated to latest version.
+* Update: Applied security patches.
 
+Details [Changelogs here](https://wpadminify.com/docs/loginfy/changelogs)
 
-=== Upgrade Notice ===
+== Upgrade Notice ==
 No upgrade notices at this time.
-
-=== Support ===
-For any inquiries, issues, or feature requests, please reach out to us through the support forum on the WordPress plugin repository page.
-
-=== License ===
-This plugin is licensed under the GPLv2 or later.
