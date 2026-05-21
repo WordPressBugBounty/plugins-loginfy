@@ -53,22 +53,22 @@ class Logo_Section extends Customize_Model {
         $logo_settings[] = [
             'id'       => 'show_logo',
             'type'     => 'switcher',
-            'title'    => __( 'Display Logo?', 'loginfy' ),
+            'title'    => 'Display Logo?',
             'default'  => $this->get_default_field( 'show_logo' ),
-            'text_on'  => __( 'Yes', 'loginfy' ),
-            'text_off' => __( 'No', 'loginfy' ),
+            'text_on'  => 'Yes',
+            'text_off' => 'No',
             'class'    => 'loginfy-cs',
         ];
         $logo_settings[] = [
             'id'         => 'logo_settings',
             'type'       => 'button_set',
-            'title'      => __( 'Logo Type', 'loginfy' ),
-            'help'       => __( 'Select the way you want to display Logo', 'loginfy' ),
+            'title'      => 'Logo Type',
+            'help'       => 'Select the way you want to display Logo',
             'options'    => [
-                'text-only'  => __( 'Text', 'loginfy' ),
-                'image-only' => __( 'Image', 'loginfy' ),
-                'both'       => __( 'Image & Text', 'loginfy' ),
-                'none'       => __( 'None', 'loginfy' ),
+                'text-only'  => 'Text',
+                'image-only' => 'Image',
+                'both'       => 'Image & Text',
+                'none'       => 'None',
             ],
             'default'    => $this->get_default_field( 'logo_settings' ),
             'dependency' => ['show_logo', '==', 'true'],
@@ -76,7 +76,7 @@ class Logo_Section extends Customize_Model {
         $logo_settings[] = [
             'id'           => 'logo_image',
             'type'         => 'media',
-            'title'        => __( 'Logo Image', 'loginfy' ),
+            'title'        => 'Logo Image',
             'library'      => 'image',
             'preview'      => true,
             'preview_size' => 'full',
@@ -85,9 +85,9 @@ class Logo_Section extends Customize_Model {
         $logo_settings[] = [
             'id'          => 'logo_text',
             'type'        => 'text',
-            'title'       => __( 'Text Logo', 'loginfy' ),
+            'title'       => 'Text Logo',
             'default'     => $this->get_default_field( 'logo_text' ),
-            'placeholder' => __( 'Enter Logo Text here', 'loginfy' ),
+            'placeholder' => 'Enter Logo Text here',
             'dependency'  => [[
                 'show_logo|logo_settings|logo_settings',
                 '==|!=|!=',
@@ -105,12 +105,12 @@ class Logo_Section extends Customize_Model {
         $logo_settings[] = [
             'id'          => 'login_page_title',
             'type'        => 'text',
-            'title'       => __( 'Login Page Title', 'loginfy' ),
-            'placeholder' => __( 'Enter Login Page Title here', 'loginfy' ),
+            'title'       => 'Login Page Title',
+            'placeholder' => 'Enter Login Page Title here',
         ];
         $logo_settings[] = [
             'type'       => 'heading',
-            'content'    => __( 'Logo Style', 'loginfy' ),
+            'content'    => 'Logo Style',
             'dependency' => [['show_logo', '==', 'true']],
         ];
         $logo_settings[] = [
@@ -138,7 +138,7 @@ class Logo_Section extends Customize_Model {
         ];
         $login_title_style[] = [
             'type'       => 'notice',
-            'title'      => __( 'Title Typography', 'loginfy' ),
+            'title'      => 'Title Typography',
             'style'      => 'warning',
             'content'    => Helper::loginfy_upgrade_pro(),
             'dependency' => [[
@@ -150,7 +150,7 @@ class Logo_Section extends Customize_Model {
         ];
         $login_title_style[] = [
             'type'    => 'notice',
-            'title'   => __( 'Padding', 'loginfy' ),
+            'title'   => 'Padding',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
@@ -167,7 +167,7 @@ class Logo_Section extends Customize_Model {
          */
         \LOGINFY::createSection( $this->prefix, [
             'assign' => 'jlt_loginfy_customizer_logo_section',
-            'title'  => __( 'Logo', 'loginfy' ),
+            'title'  => 'Logo',
             'fields' => $logo_settings,
         ] );
     }

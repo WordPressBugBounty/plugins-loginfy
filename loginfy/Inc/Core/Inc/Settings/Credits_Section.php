@@ -29,26 +29,26 @@ class Credits_Section extends Customize_Model {
 	public function credits_settings( &$credit_fields ) {
 		$credit_fields[] = [
 			'type'    => 'heading',
-			'content' => __( 'Show Some Love', 'loginfy' ),
+			'content' => 'Show Some Love',
 		];
 		$credit_fields[] = [
 			'type'    => 'notice',
 			'style'   => 'normal',
-			'content' => __('Show some love and help others to learn about this free plugin by adding a Powered by Loginfy Logo to your login page', 'loginfy' ),
+			'content' => 'Show some love and help others to learn about this free plugin by adding a Powered by Loginfy Logo to your login page',
 		];
 		$credit_fields[] = [
 			'id'       => 'jlt_loginfy_credits',
 			'type'     => 'switcher',
-			'title'    => __( 'Enable Credits?', 'loginfy' ),
-			'text_on'  => __( 'Yes', 'loginfy' ),
-			'text_off' => __( 'No', 'loginfy' ),
+			'title'    => 'Enable Credits?',
+			'text_on'  => 'Yes',
+			'text_off' => 'No',
 			'default'  => $this->get_default_field( 'jlt_loginfy_credits' ),
 			'class'    => 'loginfy-cs',
 		];
 		$credit_fields[] = [
 			'id'         => 'credits_text_color',
 			'type'       => 'color',
-			'title'      => __( 'Text Color', 'loginfy' ),
+			'title'      => 'Text Color',
 			'class'      => 'loginfy-cs',
 			'dependency' => [ 'jlt_loginfy_credits', '==', 'true' ],
 		];
@@ -61,7 +61,7 @@ class Credits_Section extends Customize_Model {
 		$credit_fields[] = [
 			'id'                    => 'credits_logo_position',
 			'type'                  => 'background',
-			'title'                 => __( 'Position', 'loginfy' ),
+			'title'                 => 'Position',
 			'background_color'      => false,
 			'background_image'      => false,
 			'background_position'   => true,
@@ -94,7 +94,7 @@ class Credits_Section extends Customize_Model {
 			$this->prefix,
 			[
 				'assign' => 'jlt_loginfy_customizer_credits_section',
-				'title'  => __( 'Credits', 'loginfy' ),
+				'title'  => 'Credits',
 				'fields' => $credit_fields,
 			]
 		);

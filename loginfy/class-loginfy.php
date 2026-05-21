@@ -40,10 +40,14 @@ if ( !class_exists( '\\Loginfy\\Loginfy' ) ) {
          * @author Jewel Theme <support@jeweltheme.com>
          */
         public function __construct() {
-            new Core();
+            add_action( 'init', array($this, 'jlt_loginfy_boot_core'), 5 );
             add_action( 'plugins_loaded', array($this, 'jlt_loginfy_plugins_loaded'), 999 );
+            // Remove deprecated the_block_template_skip_link (WP 6.4+)
+            remove_action( 'wp_footer', 'the_block_template_skip_link' );
             // Body Class.
             add_filter( 'admin_body_class', array($this, 'jlt_loginfy_body_class') );
+            // Add wp-adminify class on customizer (customize.php doesn't use admin_body_class filter)
+            add_action( 'customize_controls_print_footer_scripts', array($this, 'jlt_loginfy_customizer_body_class') );
             // This should run earlier .
             // add_action( 'plugins_loaded', [ $this, 'jlt_loginfy_maybe_run_upgrades' ], -100 ); .
             // Freemius Hooks
@@ -57,13 +61,29 @@ if ( !class_exists( '\\Loginfy\\Loginfy' ) ) {
         }
 
         /**
+         * Initialize Core on init hook
+         *
+         * @author Jewel Theme <support@jeweltheme.com>
+         */
+        public function init_core() {
+            new Core();
+        }
+
+        /**
          * plugins_loaded method
          *
          * @author Jewel Theme <support@jeweltheme.com>
          */
         public function jlt_loginfy_plugins_loaded() {
             $this->jlt_loginfy_activate();
-            $this->includes();
+            add_action( 'init', array($this, 'includes'), 5 );
+        }
+
+        /**
+         * Instantiate Core on init to avoid loading translations before init.
+         */
+        public function jlt_loginfy_boot_core() {
+            new Core();
         }
 
         /**
@@ -113,6 +133,16 @@ if ( !class_exists( '\\Loginfy\\Loginfy' ) ) {
         }
 
         /**
+         * Add wp-adminify body class on Loginfy customizer panel via JavaScript
+         * (customize.php doesn't use admin_body_class filter)
+         */
+        public function jlt_loginfy_customizer_body_class() {
+            if ( isset( $_SERVER['REQUEST_URI'] ) && strpos( $_SERVER['REQUEST_URI'], 'loginfy_panel' ) !== false ) {
+                echo '<script>document.body.classList.add("wp-adminify");</script>';
+            }
+        }
+
+        /**
          * Run Upgrader Class
          *
          * @return void
@@ -149,7 +179,8 @@ if ( !class_exists( '\\Loginfy\\Loginfy' ) ) {
          * @author Jewel Theme <support@jeweltheme.com>
          */
         public function jlt_loginfy_init() {
-            $this->jlt_loginfy_load_textdomain();
+            // Load textdomain on init hook before Core (priority 1 < 5)
+            add_action( 'init', array($this, 'jlt_loginfy_load_textdomain'), 1 );
         }
 
         /**
@@ -158,12 +189,10 @@ if ( !class_exists( '\\Loginfy\\Loginfy' ) ) {
          * @author Jewel Theme <support@jeweltheme.com>
          */
         public function jlt_loginfy_load_textdomain() {
-            add_action( 'init', function () {
-                $domain = 'loginfy';
-                $locale = apply_filters( 'plugin_locale', get_locale(), $domain );
-                load_textdomain( $domain, WP_LANG_DIR . '/' . $domain . '/' . $domain . '-' . $locale . '.mo' );
-                load_plugin_textdomain( $domain, false, dirname( LOGINFY_BASE ) . '/languages/' );
-            } );
+            $domain = 'loginfy';
+            $locale = apply_filters( 'plugin_locale', get_locale(), $domain );
+            load_textdomain( $domain, WP_LANG_DIR . '/' . $domain . '/' . $domain . '-' . $locale . '.mo' );
+            load_plugin_textdomain( $domain, false, dirname( LOGINFY_BASE ) . '/languages/' );
         }
 
         /**
@@ -175,10 +204,6 @@ if ( !class_exists( '\\Loginfy\\Loginfy' ) ) {
             $plugin = 'loginfy/loginfy.php';
             if ( is_plugin_active( $plugin ) ) {
                 deactivate_plugins( $plugin );
-            }
-            if ( class_exists( '\\WPAdminify\\Inc\\Admin\\AdminSettings' ) ) {
-                $sync_settings = new \Loginfy\Inc\Core\Inc\Customize_Settings();
-                $sync_settings->sync_settings_from_adminify();
             }
             set_transient( '_welcome_screen_activation_redirect', true, 30 );
         }

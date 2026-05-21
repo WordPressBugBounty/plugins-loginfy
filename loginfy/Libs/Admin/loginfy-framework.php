@@ -3,12 +3,12 @@
  *
  * @package   Loginfy Framework
  * @author    Loginfy <support@wpadminify.com>
- * @link      http://wpadminify.com/login-customizer
+ * @link      https://wpadminify.com/loginfy
  * @copyright 2015-2022 Loginfy
  *
  *
  * Plugin Name: Loginfy Framework
- * Plugin URI: http://wpadminify.com/login-customizer
+ * Plugin URI: https://wpadminify.com/loginfy
  * Author: Loginfy
  * Author URI: http://wpadminify.com/
  * Version: 2.3.1

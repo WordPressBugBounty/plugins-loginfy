@@ -63,14 +63,14 @@ class Button_Section extends Customize_Model {
         $button_fields_normal[] = [
             'id'      => 'button_bg',
             'type'    => 'color',
-            'title'   => __( 'Background', 'loginfy' ),
+            'title'   => 'Background',
             'default' => $this->get_default_field( 'login_form_button_settings' )['button_bg'],
             'class'   => 'loginfy-cs',
         ];
         $button_fields_normal[] = [
             'id'      => 'button_text_color',
             'type'    => 'color',
-            'title'   => __( 'Text Color', 'loginfy' ),
+            'title'   => 'Text Color',
             'default' => $this->get_default_field( 'login_form_button_settings' )['button_text_color'],
             'class'   => 'loginfy-cs',
         ];
@@ -86,7 +86,7 @@ class Button_Section extends Customize_Model {
         // ),
         $button_fields_normal[] = [
             'type'    => 'subheading',
-            'content' => __( 'Text Shadow', 'loginfy' ),
+            'content' => 'Text Shadow',
         ];
         $button_fields_normal[] = [
             'id'     => 'button_text_shadow',
@@ -148,28 +148,28 @@ class Button_Section extends Customize_Model {
     public function normal_button_text_shadow( &$normal_text_shadow ) {
         $normal_text_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Color', 'loginfy' ),
+            'title'   => 'Color',
             'style'   => 'warning',
             'class'   => 'loginfy-cs',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $normal_text_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Blur', 'loginfy' ),
+            'title'   => 'Blur',
             'style'   => 'warning',
             'class'   => 'loginfy-cs',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $normal_text_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Horizontal', 'loginfy' ),
+            'title'   => 'Horizontal',
             'style'   => 'warning',
             'class'   => 'loginfy-cs',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $normal_text_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Vertical', 'loginfy' ),
+            'title'   => 'Vertical',
             'style'   => 'warning',
             'class'   => 'loginfy-cs',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
@@ -189,14 +189,14 @@ class Button_Section extends Customize_Model {
         $button_fields_hover[] = [
             'id'      => 'button_bg_hover',
             'type'    => 'color',
-            'title'   => __( 'Background', 'loginfy' ),
+            'title'   => 'Background',
             'default' => $this->get_default_field( 'login_form_button_settings' )['button_bg_hover'],
             'class'   => 'loginfy-cs',
         ];
         $button_fields_hover[] = [
             'id'      => 'button_text_hover',
             'type'    => 'color',
-            'title'   => __( 'Text Color', 'loginfy' ),
+            'title'   => 'Text Color',
             'default' => $this->get_default_field( 'login_form_button_settings' )['button_text_hover'],
             'class'   => 'loginfy-cs',
         ];
@@ -212,7 +212,7 @@ class Button_Section extends Customize_Model {
         // ),
         $button_fields_hover[] = [
             'type'    => 'subheading',
-            'content' => __( 'Text Shadow', 'loginfy' ),
+            'content' => 'Text Shadow',
         ];
         $button_fields_hover[] = [
             'id'     => 'button_text_shadow_hover',
@@ -275,28 +275,28 @@ class Button_Section extends Customize_Model {
     public function hover_text_shadow( &$hover_text_shadow ) {
         $hover_text_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Color', 'loginfy' ),
+            'title'   => 'Color',
             'style'   => 'warning',
             'class'   => 'loginfy-cs',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $hover_text_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Blur', 'loginfy' ),
+            'title'   => 'Blur',
             'style'   => 'warning',
             'class'   => 'loginfy-cs',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $hover_text_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Horizontal', 'loginfy' ),
+            'title'   => 'Horizontal',
             'style'   => 'warning',
             'class'   => 'loginfy-cs',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $hover_text_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Vertical', 'loginfy' ),
+            'title'   => 'Vertical',
             'style'   => 'warning',
             'class'   => 'loginfy-cs',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
@@ -316,34 +316,34 @@ class Button_Section extends Customize_Model {
         $button_fields_advance[] = [
             'id'      => 'button_margin',
             'type'    => 'spacing',
-            'title'   => __( 'Margin', 'loginfy' ),
+            'title'   => 'Margin',
             'default' => $this->get_default_field( 'login_form_button_settings' )['button_margin'],
         ];
         $button_fields_advance[] = [
             'id'      => 'button_padding',
             'type'    => 'spacing',
-            'title'   => __( 'Padding', 'loginfy' ),
+            'title'   => 'Padding',
             'default' => $this->get_default_field( 'login_form_button_settings' )['button_padding'],
         ];
         $button_fields_advance[] = [
             'type'    => 'subheading',
-            'content' => __( 'Border', 'loginfy' ),
+            'content' => 'Border',
         ];
         $button_fields_advance[] = [
             'id'      => 'button_border',
             'type'    => 'border',
-            'title'   => __( 'Border', 'loginfy' ),
+            'title'   => 'Border',
             'default' => $this->get_default_field( 'login_form_button_settings' )['button_border'],
         ];
         $button_fields_advance[] = [
             'type'    => 'notice',
-            'title'   => __( 'Border Radius', 'loginfy' ),
+            'title'   => 'Border Radius',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $button_fields_advance[] = [
             'type'    => 'subheading',
-            'content' => __( 'Box Shadow', 'loginfy' ),
+            'content' => 'Box Shadow',
         ];
         $button_fields_advance[] = [
             'id'     => 'button_box_shadow',
@@ -358,37 +358,37 @@ class Button_Section extends Customize_Model {
     public function advance_box_shadow( &$advance_box_shadow ) {
         $advance_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Color', 'loginfy' ),
+            'title'   => 'Color',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $advance_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Horizontal', 'loginfy' ),
+            'title'   => 'Horizontal',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $advance_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Vertical', 'loginfy' ),
+            'title'   => 'Vertical',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $advance_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Vertical', 'loginfy' ),
+            'title'   => 'Vertical',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $advance_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Spread', 'loginfy' ),
+            'title'   => 'Spread',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
         $advance_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Position', 'loginfy' ),
+            'title'   => 'Position',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
@@ -403,11 +403,11 @@ class Button_Section extends Customize_Model {
         $this->button_fields_advance_settings( $button_fields_advance );
         $button_customizer_settings[] = [
             'type'    => 'subheading',
-            'content' => __( 'General Settings', 'loginfy' ),
+            'content' => 'General Settings',
         ];
         $button_customizer_settings[] = [
             'type'    => 'notice',
-            'title'   => __( 'Button Width & Height', 'loginfy' ),
+            'title'   => 'Button Width & Height',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro( ' ' ),
         ];
@@ -415,21 +415,21 @@ class Button_Section extends Customize_Model {
             'id'      => 'button_font_size',
             'type'    => 'slider',
             'unit'    => 'px',
-            'title'   => __( 'Font Size', 'loginfy' ),
+            'title'   => 'Font Size',
             'default' => $this->get_default_field( 'button_font_size' ),
         ];
         $button_customizer_settings[] = [
             'id'    => 'login_form_button_settings',
             'type'  => 'tabbed',
-            'title' => __( 'Button', 'loginfy' ),
+            'title' => 'Button',
             'tabs'  => [[
-                'title'  => __( 'Normal', 'loginfy' ),
+                'title'  => 'Normal',
                 'fields' => $button_fields_normal,
             ], [
-                'title'  => __( 'Hover', 'loginfy' ),
+                'title'  => 'Hover',
                 'fields' => $button_fields_hover,
             ], [
-                'title'  => __( 'Advanced', 'loginfy' ),
+                'title'  => 'Advanced',
                 'fields' => $button_fields_advance,
             ]],
         ];
@@ -446,7 +446,7 @@ class Button_Section extends Customize_Model {
          */
         \LOGINFY::createSection( $this->prefix, [
             'assign' => 'jlt_loginfy_customizer_login_form_button_section',
-            'title'  => __( 'Button', 'loginfy' ),
+            'title'  => 'Button',
             'fields' => $button_customizer_settings,
         ] );
     }

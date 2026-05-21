@@ -41,7 +41,7 @@ class Layout_Section extends Customize_Model {
         $layout_fields[] = [
             'id'      => 'alignment_login_width',
             'type'    => 'image_select',
-            'title'   => __( 'Layout', 'loginfy' ),
+            'title'   => 'Layout',
             'options' => [
                 'fullwidth'        => $layout_images . 'width-full.png',
                 'width_two_column' => $layout_images . 'width-2column.png',
@@ -51,7 +51,7 @@ class Layout_Section extends Customize_Model {
         $layout_fields[] = [
             'id'         => 'alignment_login_column',
             'type'       => 'image_select',
-            'title'      => __( 'Column Alignment', 'loginfy' ),
+            'title'      => 'Column Alignment',
             'options'    => [
                 'top'    => $layout_images . 'column-top.png',
                 'right'  => $layout_images . 'column-right.png',
@@ -64,7 +64,7 @@ class Layout_Section extends Customize_Model {
         $layout_fields[] = [
             'id'      => 'alignment_login_horizontal',
             'type'    => 'image_select',
-            'title'   => __( 'Horizontal Alignment', 'loginfy' ),
+            'title'   => 'Horizontal Alignment',
             'options' => [
                 'left_center'   => $layout_images . 'form-left-center.png',
                 'center_center' => $layout_images . 'form-center.png',
@@ -75,7 +75,7 @@ class Layout_Section extends Customize_Model {
         $layout_fields[] = [
             'id'      => 'alignment_login_vertical',
             'type'    => 'image_select',
-            'title'   => __( 'Vertical Alignment', 'loginfy' ),
+            'title'   => 'Vertical Alignment',
             'options' => [
                 'center_top'    => $layout_images . 'form-center-top.png',
                 'center_center' => $layout_images . 'form-center-center.png',
@@ -86,10 +86,10 @@ class Layout_Section extends Customize_Model {
         $layout_fields[] = [
             'id'      => 'alignment_login_bg_type',
             'type'    => 'button_set',
-            'title'   => __( 'Side Background', 'loginfy' ),
+            'title'   => 'Side Background',
             'options' => [
-                'color'    => __( 'Color ', 'loginfy' ),
-                'gradient' => __( 'Gradient', 'loginfy' ),
+                'color'    => 'Color',
+                'gradient' => 'Gradient',
             ],
             'default' => $this->get_default_field( 'alignment_login_bg_type' ),
             'class'   => 'loginfy-cs',
@@ -118,7 +118,7 @@ class Layout_Section extends Customize_Model {
         ];
         $layout_fields[] = [
             'type'       => 'notice',
-            'title'      => __( 'Skew', 'loginfy' ),
+            'title'      => 'Skew',
             'style'      => 'warning',
             'content'    => Helper::loginfy_upgrade_pro(),
             'dependency' => [
@@ -141,7 +141,7 @@ class Layout_Section extends Customize_Model {
          */
         \LOGINFY::createSection( $this->prefix, [
             'assign' => 'jlt_loginfy_customizer_layout_section',
-            'title'  => __( 'Layout', 'loginfy' ),
+            'title'  => 'Layout',
             'fields' => $layout_fields,
         ] );
     }

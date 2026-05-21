@@ -58,37 +58,37 @@ class Form_Section extends Customize_Model {
     public function login_form_box_shadow_settings( &$login_form_box_shadow ) {
         $login_form_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Color', 'loginfy' ),
+            'title'   => 'Color',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Horizontal', 'loginfy' ),
+            'title'   => 'Horizontal',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Vertical', 'loginfy' ),
+            'title'   => 'Vertical',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Blur', 'loginfy' ),
+            'title'   => 'Blur',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Spread', 'loginfy' ),
+            'title'   => 'Spread',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_box_shadow[] = [
             'type'    => 'notice',
-            'title'   => __( 'Position', 'loginfy' ),
+            'title'   => 'Position',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
@@ -102,21 +102,21 @@ class Form_Section extends Customize_Model {
         $this->login_form_box_shadow_settings( $login_form_box_shadow );
         $login_form_settings[] = [
             'type'    => 'subheading',
-            'content' => __( 'Background', 'loginfy' ),
+            'content' => 'Background',
         ];
         $login_form_settings[] = [
             'id'      => 'login_form_bg_type',
             'type'    => 'button_set',
             'options' => [
-                'color'    => __( 'Color & Image', 'loginfy' ),
-                'gradient' => __( 'Gradient', 'loginfy' ),
+                'color'    => 'Color & Image',
+                'gradient' => 'Gradient',
             ],
             'default' => $this->get_default_field( 'login_form_bg_type' ),
         ];
         $login_form_settings[] = [
             'id'         => 'login_form_bg_color',
             'type'       => 'background',
-            'title'      => __( 'Background', 'loginfy' ),
+            'title'      => 'Background',
             'default'    => $this->get_default_field( 'login_form_bg_color' ),
             'dependency' => [
                 'login_form_bg_type',
@@ -127,7 +127,7 @@ class Form_Section extends Customize_Model {
         ];
         $login_form_settings[] = [
             'type'       => 'notice',
-            'title'      => __( 'Background Option with Gradient Color', 'loginfy' ),
+            'title'      => 'Background Option with Gradient Color',
             'style'      => 'warning',
             'content'    => Helper::loginfy_upgrade_pro(),
             'dependency' => [
@@ -139,45 +139,45 @@ class Form_Section extends Customize_Model {
         ];
         $login_form_settings[] = [
             'type'    => 'subheading',
-            'content' => __( 'Form Width & Height', 'loginfy' ),
+            'content' => 'Form Width & Height',
         ];
         $login_form_settings[] = [
             'id'      => 'login_form_height_width',
             'type'    => 'dimensions',
-            'title'   => __( 'Width & Height', 'loginfy' ),
+            'title'   => 'Width & Height',
             'default' => $this->get_default_field( 'login_form_height_width' ),
         ];
         $login_form_settings[] = [
             'type'    => 'notice',
-            'title'   => __( 'Margin', 'loginfy' ),
+            'title'   => 'Margin',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_settings[] = [
             'type'    => 'notice',
-            'title'   => __( 'Padding', 'loginfy' ),
+            'title'   => 'Padding',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_settings[] = [
             'type'  => 'subheading',
-            'title' => __( 'Border', 'loginfy' ),
+            'title' => 'Border',
         ];
         $login_form_settings[] = [
             'id'      => 'login_form_border',
             'type'    => 'border',
             'default' => $this->get_default_field( 'login_form_border' ),
-            'title'   => __( 'Border', 'loginfy' ),
+            'title'   => 'Border',
         ];
         $login_form_settings[] = [
             'type'    => 'notice',
-            'title'   => __( 'Border Radius', 'loginfy' ),
+            'title'   => 'Border Radius',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_settings[] = [
             'type'    => 'subheading',
-            'content' => __( 'Box Shadow', 'loginfy' ),
+            'content' => 'Box Shadow',
         ];
         $login_form_settings[] = [
             'id'     => 'login_form_box_shadow',
@@ -197,7 +197,7 @@ class Form_Section extends Customize_Model {
          */
         \LOGINFY::createSection( $this->prefix, [
             'assign' => 'jlt_loginfy_customizer_login_form_section',
-            'title'  => __( 'Login Form', 'loginfy' ),
+            'title'  => 'Login Form',
             'fields' => $login_form_settings,
         ] );
     }

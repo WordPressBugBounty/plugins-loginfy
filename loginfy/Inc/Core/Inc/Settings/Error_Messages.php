@@ -43,19 +43,19 @@ class Error_Messages extends Customize_Model {
 		$field_username[] = [
 			'id'      => 'error_incorrect_username',
 			'type'    => 'text',
-			'title'   => __( 'Incorrect Username', 'loginfy' ),
+			'title'   => 'Incorrect Username',
 			'default' => $this->get_default_field( 'login_error_messages' )['error_incorrect_username'],
 		];
 		$field_username[] = [
 			'id'      => 'error_empty_username',
 			'type'    => 'text',
-			'title'   => __( 'Empty Username', 'loginfy' ),
+			'title'   => 'Empty Username',
 			'default' => $this->get_default_field( 'login_error_messages' )['error_empty_username'],
 		];
 		$field_username[] = [
 			'id'      => 'error_exists_username',
 			'type'    => 'text',
-			'title'   => __( 'Exists Username', 'loginfy' ),
+			'title'   => 'Exists Username',
 			'default' => $this->get_default_field( 'login_error_messages' )['error_exists_username'],
 		];
 	}
@@ -72,19 +72,19 @@ class Error_Messages extends Customize_Model {
 		$field_password[] = [
 			'id'      => 'error_incorrect_password',
 			'type'    => 'text',
-			'title'   => __( 'Incorrect Password', 'loginfy' ),
+			'title'   => 'Incorrect Password',
 			'default' => $this->get_default_field( 'login_error_messages' )['error_incorrect_password'],
 		];
 		$field_password[] = [
 			'id'      => 'error_empty_password',
 			'type'    => 'text',
-			'title'   => __( 'Empty Password', 'loginfy' ),
+			'title'   => 'Empty Password',
 			'default' => $this->get_default_field( 'login_error_messages' )['error_empty_password'],
 		];
 		$field_password[] = [
 			'id'      => 'error_forget_password',
 			'type'    => 'text',
-			'title'   => __( 'Forget Password', 'loginfy' ),
+			'title'   => 'Forget Password',
 			'default' => $this->get_default_field( 'login_error_messages' )['error_forget_password'],
 		];
 	}
@@ -101,19 +101,19 @@ class Error_Messages extends Customize_Model {
 		$field_email[] = [
 			'id'      => 'error_incorrect_email',
 			'type'    => 'text',
-			'title'   => __( 'Invalid Email', 'loginfy' ),
+			'title'   => 'Invalid Email',
 			'default' => $this->get_default_field( 'login_error_messages' )['error_incorrect_email'],
 		];
 		$field_email[] = [
 			'id'      => 'error_empty_email',
 			'type'    => 'text',
-			'title'   => __( 'Empty Email', 'loginfy' ),
+			'title'   => 'Empty Email',
 			'default' => $this->get_default_field( 'login_error_messages' )['error_empty_email'],
 		];
 		$field_email[] = [
 			'id'      => 'error_exists_email',
 			'type'    => 'text',
-			'title'   => __( 'Exists Email', 'loginfy' ),
+			'title'   => 'Exists Email',
 			'default' => $this->get_default_field( 'login_error_messages' )['error_exists_email'],
 		];
 	}
@@ -138,7 +138,7 @@ class Error_Messages extends Customize_Model {
 			$this->prefix,
 			[
 				'assign' => 'jlt_loginfy_customizer_error_messages_section',
-				'title'  => __( 'Error Messages', 'loginfy' ),
+				'title'  => 'Error Messages',
 				'fields' => [
 
 					[
@@ -150,11 +150,11 @@ class Error_Messages extends Customize_Model {
 								'fields' => $field_username,
 							],
 							[
-								'title'  => __( 'Password', 'loginfy' ),
+								'title'  => 'Password',
 								'fields' => $field_password,
 							],
 							[
-								'title'  => __( 'Email', 'loginfy' ),
+								'title'  => 'Email',
 								'fields' => $field_email,
 							],
 						],

@@ -16,15 +16,15 @@ class Login_Form_Fields extends Customize_Model {
     public function get_defaults() {
         return [
             'login_form_fields' => [
-                'label_username'          => __( 'Username or Email Address', 'loginfy' ),
-                'fields_user_placeholder' => __( 'Username/Email', 'loginfy' ),
-                'fields_pass_placeholder' => __( 'Password', 'loginfy' ),
-                'label_password'          => __( 'Password', 'loginfy' ),
-                'label_remember_me'       => __( 'Remember Me', 'loginfy' ),
-                'input_login'             => __( 'Log In', 'loginfy' ),
-                'label_lost_password'     => __( 'Lost your password?', 'loginfy' ),
-                'label_back_to_site'      => __( 'Back to ', 'loginfy' ),
-                'label_register'          => __( 'Register', 'loginfy' ),
+                'label_username'          => 'Username or Email Address',
+                'fields_user_placeholder' => 'Username/Email',
+                'fields_pass_placeholder' => 'Password',
+                'label_password'          => 'Password',
+                'label_remember_me'       => 'Remember Me',
+                'input_login'             => 'Log In',
+                'label_lost_password'     => 'Lost your password?',
+                'label_back_to_site'      => 'Back to ',
+                'label_register'          => 'Register',
                 'style_label_font_size'   => 16,
                 'style_fields_height'     => 50,
                 'style_fields_font_size'  => 16,
@@ -55,30 +55,30 @@ class Login_Form_Fields extends Customize_Model {
     public function login_form_field_label_settings( &$login_form_fields ) {
         $login_form_fields[] = [
             'id'      => 'label_username',
-            'title'   => __( 'Username', 'loginfy' ),
+            'title'   => 'Username',
             'type'    => 'text',
             'default' => $this->get_default_field( 'login_form_fields' )['label_username'],
         ];
         $login_form_fields[] = [
             'id'      => 'label_password',
             'type'    => 'text',
-            'title'   => __( 'Password', 'loginfy' ),
+            'title'   => 'Password',
             'default' => $this->get_default_field( 'login_form_fields' )['label_password'],
         ];
         $login_form_fields[] = [
             'id'      => 'label_remember_me',
             'type'    => 'text',
-            'title'   => __( 'Remember Me', 'loginfy' ),
+            'title'   => 'Remember Me',
             'default' => $this->get_default_field( 'login_form_fields' )['label_remember_me'],
         ];
         $login_form_fields[] = [
             'id'      => 'input_login',
             'type'    => 'text',
             'default' => $this->get_default_field( 'login_form_fields' )['input_login'],
-            'title'   => __( 'Login', 'loginfy' ),
+            'title'   => 'Login',
         ];
         $login_form_fields[] = [
-            'title'   => __( 'Register', 'loginfy' ),
+            'title'   => 'Register',
             'id'      => 'label_register',
             'type'    => 'text',
             'default' => $this->get_default_field( 'login_form_fields' )['label_register'],
@@ -86,13 +86,13 @@ class Login_Form_Fields extends Customize_Model {
         $login_form_fields[] = [
             'id'      => 'label_lost_password',
             'type'    => 'text',
-            'title'   => __( 'Lost Password', 'loginfy' ),
+            'title'   => 'Lost Password',
             'default' => $this->get_default_field( 'login_form_fields' )['label_lost_password'],
         ];
         $login_form_fields[] = [
             'id'      => 'label_back_to_site',
             'type'    => 'text',
-            'title'   => __( 'Back to site', 'loginfy' ),
+            'title'   => 'Back to site',
             'default' => $this->get_default_field( 'login_form_fields' )['label_back_to_site'],
         ];
     }
@@ -109,13 +109,13 @@ class Login_Form_Fields extends Customize_Model {
             'id'      => 'fields_user_placeholder',
             'type'    => 'text',
             'default' => $this->get_default_field( 'login_form_fields' )['fields_user_placeholder'],
-            'title'   => __( 'Username', 'loginfy' ),
+            'title'   => 'Username',
         ];
         $login_form_placeholder[] = [
             'id'      => 'fields_pass_placeholder',
             'type'    => 'text',
             'default' => $this->get_default_field( 'login_form_fields' )['fields_pass_placeholder'],
-            'title'   => __( 'Password', 'loginfy' ),
+            'title'   => 'Password',
         ];
     }
 
@@ -130,7 +130,7 @@ class Login_Form_Fields extends Customize_Model {
         $login_form_style[] = [
             'id'      => 'style_label_font_size',
             'type'    => 'slider',
-            'title'   => __( 'Label Font Size', 'loginfy' ),
+            'title'   => 'Label Font Size',
             'unit'    => 'px',
             'min'     => 8,
             'max'     => 100,
@@ -140,7 +140,7 @@ class Login_Form_Fields extends Customize_Model {
         $login_form_style[] = [
             'id'      => 'style_fields_height',
             'type'    => 'slider',
-            'title'   => __( 'Field Height', 'loginfy' ),
+            'title'   => 'Field Height',
             'unit'    => 'px',
             'min'     => 8,
             'max'     => 100,
@@ -150,7 +150,7 @@ class Login_Form_Fields extends Customize_Model {
         $login_form_style[] = [
             'id'      => 'style_fields_font_size',
             'type'    => 'slider',
-            'title'   => __( 'Field Font Size', 'loginfy' ),
+            'title'   => 'Field Font Size',
             'unit'    => 'px',
             'min'     => 8,
             'max'     => 100,
@@ -159,20 +159,20 @@ class Login_Form_Fields extends Customize_Model {
         ];
         $login_form_style[] = [
             'type'    => 'notice',
-            'title'   => __( 'Field Background', 'loginfy' ),
+            'title'   => 'Field Background',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_style[] = [
             'id'      => 'style_label_color',
             'type'    => 'color',
-            'title'   => __( 'Label Color', 'loginfy' ),
+            'title'   => 'Label Color',
             'default' => $this->get_default_field( 'login_form_fields' )['style_label_color'],
         ];
         $login_form_style[] = [
             'id'      => 'style_fields_color',
             'type'    => 'link_color',
-            'title'   => __( 'Input Color', 'loginfy' ),
+            'title'   => 'Input Color',
             'color'   => true,
             'hover'   => false,
             'visited' => false,
@@ -182,13 +182,13 @@ class Login_Form_Fields extends Customize_Model {
         ];
         $login_form_style[] = [
             'type'    => 'notice',
-            'title'   => __( 'Border', 'loginfy' ),
+            'title'   => 'Border',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_style[] = [
             'type'    => 'notice',
-            'title'   => __( 'Border Radius', 'loginfy' ),
+            'title'   => 'Border Radius',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
@@ -204,53 +204,53 @@ class Login_Form_Fields extends Customize_Model {
     public function login_form_field_advanced_settings( &$login_form_advanced ) {
         $login_form_advanced[] = [
             'type'    => 'notice',
-            'title'   => __( 'Margin', 'loginfy' ),
+            'title'   => 'Margin',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_advanced[] = [
             'type'    => 'notice',
-            'title'   => __( 'Field Padding', 'loginfy' ),
+            'title'   => 'Field Padding',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_advanced[] = [
             'type'  => 'subheading',
-            'title' => __( 'Box Shadow', 'loginfy' ),
+            'title' => 'Box Shadow',
         ];
         $login_form_advanced[] = [
             'type'    => 'notice',
-            'title'   => __( 'Color', 'loginfy' ),
+            'title'   => 'Color',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_advanced[] = [
             'type'    => 'notice',
-            'title'   => __( 'Horizontal', 'loginfy' ),
+            'title'   => 'Horizontal',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_advanced[] = [
             'type'    => 'notice',
-            'title'   => __( 'Vertical', 'loginfy' ),
+            'title'   => 'Vertical',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_advanced[] = [
             'type'    => 'notice',
-            'title'   => __( 'Blur', 'loginfy' ),
+            'title'   => 'Blur',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_advanced[] = [
             'type'    => 'notice',
-            'title'   => __( 'Spread', 'loginfy' ),
+            'title'   => 'Spread',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
         $login_form_advanced[] = [
             'type'    => 'notice',
-            'title'   => __( 'Position', 'loginfy' ),
+            'title'   => 'Position',
             'style'   => 'warning',
             'content' => Helper::loginfy_upgrade_pro(),
         ];
@@ -278,19 +278,19 @@ class Login_Form_Fields extends Customize_Model {
                 'type' => 'tabbed',
                 'tabs' => [
                     [
-                        'title'  => __( 'Label', 'loginfy' ),
+                        'title'  => 'Label',
                         'fields' => $login_form_fields,
                     ],
                     [
-                        'title'  => __( 'Placeholder', 'loginfy' ),
+                        'title'  => 'Placeholder',
                         'fields' => $login_form_placeholder,
                     ],
                     [
-                        'title'  => __( 'Style', 'loginfy' ),
+                        'title'  => 'Style',
                         'fields' => $login_form_style,
                     ],
                     [
-                        'title'  => __( 'Advance', 'loginfy' ),
+                        'title'  => 'Advance',
                         'fields' => $login_form_advanced,
                     ]
                 ],

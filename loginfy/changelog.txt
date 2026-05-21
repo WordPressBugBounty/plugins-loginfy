@@ -1,4 +1,7 @@
 == Changelog ==
+= 1.0.5 (06-05-2026) =
+* Update: Recommended Plugin Page Updated.
+
 = 1.0.4.0 (24-09-2025) =
 * Security Patch: Updated SDK to provide better security
 * UI Improvement: Ui Updated for better UX.

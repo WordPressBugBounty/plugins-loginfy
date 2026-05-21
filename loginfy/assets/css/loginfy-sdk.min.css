@@ -1,1 +1,522 @@
-.loginfy .mt0{margin-top:0}.loginfy #TB_window{top:43%!important}.loginfy #TB_window,.loginfy #TB_window iframe{height:690px!important;width:772px!important}.loginfy #adminmenu .wp-menu-image img{padding:7px 0 0!important}.loginfy #plugin-information-scrollable{height:calc(100% - 65px)!important}.loginfy .loginfy-recommended-wrapper .mr-0{margin:0!important}.loginfy .loginfy-recommended-wrapper .plugin-card .desc,.loginfy .loginfy-recommended-wrapper .plugin-card .name{margin-left:148px;margin-right:inherit!important}@media(min-width:1101px){.loginfy .loginfy-recommended-wrapper .plugin-card .desc>p{margin-left:0;margin-right:0}}.loginfy .loginfy-recommended-wrapper .button:not(.update-now).installed:before,.loginfy .loginfy-recommended-wrapper .button:not(.update-now).installing:before,.loginfy .loginfy-recommended-wrapper .button:not(.update-now).updated-message:before,.loginfy .loginfy-recommended-wrapper .button:not(.update-now).updating-message:before{margin:6px 10px 0 -3px!important}.loginfy .loginfy-recommended-wrapper .plugin-status-active{color:#00ba88}.loginfy .loginfy-recommended-wrapper .plugin-status-inactive{color:#f4b740}.loginfy .loginfy-recommended-wrapper .plugin-status-not-install{color:#1d2327}.loginfy .loginfy-recommended-wrapper .plugin-status{line-height:34px}.loginfy .loginfy-recommended-wrapper .hide{display:none}.loginfy #wpbody-content .notice-loginfy,.loginfy #wpbody-content .notice-plugin-review{padding:15px;position:relative}.loginfy #wpbody-content .notice-plugin-review .button:not(.loginfy-notice-dismiss){margin-right:5px}.loginfy #wpbody-content .notice-plugin-review .loginfy-notice-dismiss{box-shadow:none}.loginfy #wpbody-content .loginfy-notice-plugin-popup{border:0;border-radius:5px!important;-webkit-box-shadow:0 0 54px 0 rgba(20,20,42,.3)!important;box-shadow:0 0 54px 0 rgba(20,20,42,.3)!important;height:auto;left:50%;max-width:850px;min-height:300px;position:fixed;top:50%;transform:translate(-50%,-50%);width:100%;z-index:99999}.loginfy #wpbody-content .loginfy-notice-plugin-popup .loginfy-notice-dismiss{box-shadow:none;cursor:pointer;float:right}.loginfy #wpbody-content .loginfy-notice-subscribe{align-items:center;display:flex;padding:15px}.loginfy .upgrade-pro-popup{background:#fff;gap:15px;padding:40px!important}.loginfy .upgrade-pro-popup .upst-body{display:flex}.loginfy .upgrade-pro-popup .upst-body .content-body{color:rgba(78,75,102,.72)}.loginfy .upgrade-pro-popup .upst-body .content-body h4{color:#fb0066;display:flex;font-size:22px;gap:10px;letter-spacing:1px;line-height:32px;margin-bottom:10px}.loginfy .upgrade-pro-popup .upst-body .content-body h3{color:#14142b;font-size:28px;letter-spacing:1px}.loginfy .upgrade-pro-popup .upst-body .content-body h3 span{color:#0347ff}.loginfy .upgrade-pro-popup .upst-body .content-body p{font-size:16px!important;font-weight:400!important;line-height:22px!important}.loginfy .upgrade-pro-popup .upst-body .content-body ul li{line-height:22px;margin:10px 0;padding-left:30px}.loginfy .upgrade-pro-popup .upst-body .content-body ul li:before{color:#fff;font-size:17px;left:1px;top:2px}.loginfy .upgrade-pro-popup .upst-body .content-body ul li:after{background:#00ba88;border-radius:50px;content:"";height:18px;left:1px;position:absolute;top:3px!important;width:18px}.loginfy .upgrade-pro-popup .upst-body .content-body ul li span{color:#14142b!important}.loginfy .upgrade-pro-popup .upst-body .content-body .upgrade-btn{background:#0347ff;border:0!important;border-radius:7px;color:#fff;font-size:18px;padding:5px 25px}.loginfy .upgrade-pro-popup .col:first-child{padding-right:20px;padding-top:120px}.loginfy .upgrade-pro-popup .col:first-child img{max-width:100%}.loginfy .upgrade-pro-popup .col{flex-basis:50%}.loginfy .upgrade-pro-popup .col:nth-child(2){padding-left:20px}.loginfy .upgrade-pro-popup ul li:before{content:"";font-family:dashicons;font-size:19px;left:0;position:absolute;top:0;z-index:1}.loginfy .upgrade-pro-popup ul li{list-style:none;padding-left:25px;position:relative}.loginfy .upgrade-pro-popup .upst-footer ul{display:flex;justify-content:space-between;margin:0 auto;padding-top:60px;width:70%}.loginfy .upgrade-pro-popup .upst-footer ul li a{color:rgba(78,75,102,.72)!important}.loginfy .upgrade-pro-popup .upst-footer ul li a:hover{color:#0347ff!important}.loginfy .upgrade-pro-popup .upst-footer ul li:before{color:#00ba88;font-size:22px}.loginfy .loginfy-notice-plugin-popup .loginfy-notice-dismiss{background:0 0!important;border:0!important;outline:0!important}.loginfy .loginfy-notice-plugin-popup .loginfy-notice-dismiss:before{color:rgba(78,75,102,.72)!important;content:"×"!important;font-size:30px!important;height:22px!important;width:22px!important}.loginfy body.loginfy-popup-overlay{height:auto;position:relative}.loginfy body.loginfy-popup-overlay:before{background:rgba(0,0,0,.6);content:"";height:100%;position:absolute;width:100%;z-index:9999}.loginfy .loginfy-notice-subscribe img{height:50px;margin-right:15px;max-width:50px;width:50px}.loginfy .loginfy-notice-subscribe h4{margin-top:0}.loginfy .loginfy-notice-subscribe-input{margin-right:15px}.loginfy .loginfy-badge:after{border-radius:3px;color:#fff;display:none;font-size:11px;padding:1px 7px;position:absolute;right:-40px;top:50%;transform:translateY(-50%)}.loginfy .loginfy-badge-pro:after{background:#ff8c00;content:"Pro"}.loginfy .loginfy-badge-ultimate:after{background:#8a2be2;content:"Ultimate";right:-60px}.loginfy .image-choose-opt.disabled .disabled-text{align-items:center;background:rgba(85,85,85,.7);color:#fff;display:flex;height:90px;justify-content:center;left:5px;position:absolute;top:0;width:90px}.loginfy .form-table tr.disabled{position:relative}.loginfy .form-table tr.disabled>*{opacity:.6}.loginfy .form-table tr.disabled>* button,.loginfy .form-table tr.disabled>* input,.loginfy .form-table tr.disabled>* select,.loginfy .form-table tr.disabled>* textarea{pointer-events:none}.loginfy .form-table tr.disabled:hover .loginfy-badge:after{display:inline}.loginfy:root{--loginfy-popup-color:#ff631a}.loginfy .loginfy-popup *{all:initial;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif}.loginfy .loginfy-popup{align-items:center;border:0;display:flex;height:100%;justify-content:center;left:0;margin:0;padding:0;position:fixed;top:0;width:100%;z-index:99999999!important}.loginfy .loginfy-popup-overlay{background:rgba(0,0,0,.2);height:100%;left:0;position:absolute;top:0;width:100%}.loginfy .loginfy-popup-modal{align-items:flex-end;background:#222;background-position:50%;background-repeat:no-repeat;background-size:cover;border-radius:3px;box-shadow:0 0 10px 0 rgba(0,0,0,.5);color:#fff;display:flex;height:600px;justify-content:center;margin:0;max-height:600px!important;max-width:600px!important;padding:0;transform:scale(.9);width:600px}.loginfy .loginfy-popup-modal-close{align-items:center;color:var(--jltmapfy-popup-color);cursor:pointer;display:flex;font-size:50px;height:40px;justify-content:center;margin:0;opacity:.5;padding:0;position:absolute;right:10px;top:5px;transition:.3s;width:40px}.loginfy .loginfy-popup-modal-close:hover{opacity:1}.loginfy .loginfy-popup-modal-footer{align-items:center;display:flex;flex-direction:column;height:225px;justify-content:flex-end;max-height:225px!important;padding:15px 0;width:100%}.loginfy .loginfy-popup-countdown{align-items:center;display:flex;flex-direction:column;gap:10px;justify-content:space-evenly}.loginfy .loginfy-popup-countdown-text{color:#fff;font-size:14px;font-weight:600;line-height:1.2;position:relative}.loginfy .loginfy-popup-countdown-time{align-items:center;display:flex;gap:10px;justify-content:space-evenly}.loginfy .loginfy-popup-countdown-time>div{align-items:center;display:flex;flex-direction:column;gap:5px;justify-content:space-evenly}.loginfy .loginfy-popup-countdown-time>div>span{color:#fff;font-size:20px;font-weight:600}.loginfy .loginfy-popup-countdown-time>div>span:first-child{align-items:center;border:2px solid hsla(0,0%,100%,.6);border-radius:5px;display:flex;font-size:22px;height:40px;justify-content:center;width:45px}.loginfy .loginfy-popup-countdown-time>div>span:nth-child(2){color:#fff;font-size:12px;font-weight:500}.loginfy .loginfy-popup-countdown-time>span{color:#fff;font-size:50px;margin-top:-25px}.loginfy .loginfy-popup-button{align-items:center;background:var(--loginfy-popup-color);border:0;border-radius:5px;color:#222;color:#fff;cursor:pointer;display:inline-flex;font-size:18px;font-weight:600;height:50px;justify-content:center;letter-spacing:.5px;margin:20px 0;padding:0 30px;position:relative;text-decoration:none;transition:.3s;transition:.2s}.loginfy .loginfy-popup-button:after{background:hsla(0,0%,100%,.2);content:"";height:100%;left:0;position:absolute;top:0;transition:.3s;width:0}.loginfy .loginfy-popup-button:hover{color:#fff}.loginfy .loginfy-popup-button:hover:after{width:100%}.loginfy .loginfy-wwc>p{margin-bottom:20px;margin-top:0;padding-top:0}.loginfy .loginfy-wwc-content{color:#646970;margin-bottom:25px}@media(max-width:576px){.loginfy .loginfy-popup-countdown{transform:scale(.99)}}.loginfy .loginfy-system-info-page h2{padding-top:15px}.loginfy .loginfy-log-file{background:#0085ba!important;border-color:#0073aa #006799 #006799!important;-webkit-box-shadow:0 1px 0 #006799!important;box-shadow:0 1px 0 #006799!important;color:#fff!important;text-decoration:none!important;text-shadow:0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799}.loginfy .loginfy-file-spinner{display:none;padding:5px}.loginfy .loginfy-file-text{color:#009306;display:none;padding:5px}
+@charset "UTF-8";
+/* Survey Variables */
+/* Survey Variables */
+/* Recommended */
+/* Review */
+/* Popup */
+/* Subscribe form */
+/*---- badge ---*/
+/* Disable Field */
+/* Start of Overlay Upgrade Popup  */
+/* responsive  */
+/* End of Overlay Upgrade Popup  */
+.loginfy {
+  /* --- Start of System Info --- */
+  /* --- End of System Info --- */
+}
+.loginfy .mt0 {
+  margin-top: 0;
+}
+.loginfy #TB_window {
+  top: 43% !important;
+  width: 772px !important;
+  height: 690px !important;
+}
+.loginfy #TB_window iframe {
+  width: 772px !important;
+  height: 690px !important;
+}
+.loginfy #adminmenu #toplevel_page_loginfy-customizer .wp-menu-image img {
+  padding: 7px 0 0 !important;
+}
+.loginfy #plugin-information-scrollable {
+  height: calc(100% - 65px) !important;
+}
+.loginfy .loginfy-recommended-wrapper .mr-0 {
+  margin: 0 !important;
+}
+.loginfy .loginfy-recommended-wrapper .plugin-card .name {
+  margin-left: 148px;
+  margin-right: inherit !important;
+}
+.loginfy .loginfy-recommended-wrapper .plugin-card .desc {
+  margin-left: 148px;
+  margin-right: inherit !important;
+}
+@media (min-width: 1101px) {
+  .loginfy .loginfy-recommended-wrapper .plugin-card .desc > p {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.loginfy .loginfy-recommended-wrapper .button:not(.update-now).updating-message:before {
+  margin: 6px 10px 0px -3px !important;
+}
+.loginfy .loginfy-recommended-wrapper .button:not(.update-now).updated-message:before {
+  margin: 6px 10px 0px -3px !important;
+}
+.loginfy .loginfy-recommended-wrapper .button:not(.update-now).installed:before {
+  margin: 6px 10px 0px -3px !important;
+}
+.loginfy .loginfy-recommended-wrapper .button:not(.update-now).installing:before {
+  margin: 6px 10px 0px -3px !important;
+}
+.loginfy .loginfy-recommended-wrapper .plugin-status-active {
+  color: #00BA88;
+}
+.loginfy .loginfy-recommended-wrapper .plugin-status-inactive {
+  color: #F4B740;
+}
+.loginfy .loginfy-recommended-wrapper .plugin-status-not-install {
+  color: #1d2327;
+}
+.loginfy .loginfy-recommended-wrapper .plugin-status {
+  line-height: 34px;
+}
+.loginfy .loginfy-recommended-wrapper .hide {
+  display: none;
+}
+.loginfy #wpbody-content .notice-loginfy {
+  padding: 15px;
+  position: relative;
+}
+.loginfy #wpbody-content .notice-plugin-review {
+  padding: 15px;
+  position: relative;
+}
+.loginfy #wpbody-content .notice-plugin-review .button:not(.loginfy-notice-dismiss) {
+  margin-right: 5px;
+}
+.loginfy #wpbody-content .notice-plugin-review .loginfy-notice-dismiss {
+  box-shadow: none;
+}
+.loginfy #wpbody-content .loginfy-notice-plugin-popup {
+  max-width: 850px;
+  min-height: 300px;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: auto;
+  border-radius: 5px !important;
+  transform: translate(-50%, -50%);
+  border: 0;
+  position: fixed;
+  z-index: 99999;
+  -webkit-box-shadow: 0px 0px 54px 0px rgba(20, 20, 42, 0.3) !important;
+  box-shadow: 0px 0px 54px 0px rgba(20, 20, 42, 0.3) !important;
+}
+.loginfy #wpbody-content .loginfy-notice-plugin-popup .loginfy-notice-dismiss {
+  box-shadow: none;
+  float: right;
+  cursor: pointer;
+}
+.loginfy #wpbody-content .loginfy-notice-subscribe {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.loginfy .upgrade-pro-popup {
+  gap: 15px;
+  background: #fff;
+  padding: 40px !important;
+}
+.loginfy .upgrade-pro-popup .upst-body {
+  display: flex;
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body {
+  color: rgba(78, 75, 102, 0.72);
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body h4 {
+  display: flex;
+  color: #FB0066;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  gap: 10px;
+  font-size: 22px;
+  line-height: 32px;
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body h3 {
+  color: #14142B;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body h3 span {
+  color: #0347ff;
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body p {
+  font-weight: normal !important;
+  line-height: 22px !important;
+  font-size: 16px !important;
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body ul li {
+  margin: 10px 0;
+  line-height: 22px;
+  padding-left: 30px;
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body ul li:before {
+  color: #fff;
+  top: 2px;
+  left: 1px;
+  font-size: 17px;
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body ul li:after {
+  position: absolute;
+  content: "";
+  background: #00ba88;
+  border-radius: 50px;
+  width: 18px;
+  height: 18px;
+  top: 3px !important;
+  left: 1px;
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body ul li span {
+  color: #14142B !important;
+}
+.loginfy .upgrade-pro-popup .upst-body .content-body .upgrade-btn {
+  background: #0347ff;
+  color: #fff;
+  font-size: 18px;
+  border: 0 !important;
+  border-radius: 7px;
+  padding: 5px 25px;
+}
+.loginfy .upgrade-pro-popup .col {
+  flex-basis: 50%;
+}
+.loginfy .upgrade-pro-popup .col:nth-child(1) {
+  padding-right: 20px;
+  padding-top: 120px;
+}
+.loginfy .upgrade-pro-popup .col:nth-child(1) img {
+  max-width: 100%;
+}
+.loginfy .upgrade-pro-popup .col:nth-child(2) {
+  padding-left: 20px;
+}
+.loginfy .upgrade-pro-popup ul li {
+  position: relative;
+  list-style: none;
+  padding-left: 25px;
+  position: relative;
+  list-style: none;
+  padding-left: 25px;
+}
+.loginfy .upgrade-pro-popup ul li:before {
+  position: absolute;
+  content: "\f15e";
+  font-family: dashicons;
+  font-size: 19px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.loginfy .upgrade-pro-popup .upst-footer ul {
+  display: flex;
+  padding-top: 60px;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.loginfy .upgrade-pro-popup .upst-footer ul li a {
+  color: rgba(78, 75, 102, 0.72) !important;
+}
+.loginfy .upgrade-pro-popup .upst-footer ul li a:hover {
+  color: #0347FF !important;
+}
+.loginfy .upgrade-pro-popup .upst-footer ul li:before {
+  font-size: 22px;
+  color: #00BA88;
+}
+.loginfy .loginfy-notice-plugin-popup .loginfy-notice-dismiss {
+  border: 0 !important;
+  outline: none !important;
+  background: transparent !important;
+}
+.loginfy .loginfy-notice-plugin-popup .loginfy-notice-dismiss:before {
+  content: "×" !important;
+  font-size: 30px !important;
+  height: 22px !important;
+  width: 22px !important;
+  color: rgba(78, 75, 102, 0.72) !important;
+}
+.loginfy body.loginfy-popup-overlay {
+  position: relative;
+  height: auto;
+}
+.loginfy body.loginfy-popup-overlay:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+}
+.loginfy .loginfy-notice-subscribe img {
+  width: 50px;
+  max-width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+.loginfy .loginfy-notice-subscribe h4 {
+  margin-top: 0;
+}
+.loginfy .loginfy-notice-subscribe-input {
+  margin-right: 15px;
+}
+.loginfy .loginfy-badge:after {
+  color: #fff;
+  position: absolute;
+  font-size: 11px;
+  padding: 1px 7px;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 3px;
+  display: none;
+}
+.loginfy .loginfy-badge-pro:after {
+  content: "Pro";
+  background: darkorange;
+}
+.loginfy .loginfy-badge-ultimate:after {
+  content: "Ultimate";
+  background: blueviolet;
+  right: -60px;
+}
+.loginfy .image-choose-opt.disabled .disabled-text {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 5px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(85, 85, 85, 0.7);
+  color: #fff;
+}
+.loginfy .form-table tr.disabled {
+  position: relative;
+}
+.loginfy .form-table tr.disabled > * {
+  opacity: 0.6;
+}
+.loginfy .form-table tr.disabled > * input {
+  pointer-events: none;
+}
+.loginfy .form-table tr.disabled > * select {
+  pointer-events: none;
+}
+.loginfy .form-table tr.disabled > * textarea {
+  pointer-events: none;
+}
+.loginfy .form-table tr.disabled > * button {
+  pointer-events: none;
+}
+.loginfy .form-table tr.disabled:hover .loginfy-badge:after {
+  display: inline;
+}
+.loginfy:root {
+  --loginfy-popup-color: #ff631a;
+}
+.loginfy .loginfy-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999999 !important;
+}
+.loginfy .loginfy-popup * {
+  all: initial;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.loginfy .loginfy-popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.loginfy .loginfy-popup-modal {
+  width: 600px;
+  max-width: 600px !important;
+  height: 600px;
+  max-height: 600px !important;
+  color: white;
+  background: #222;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  transform: scale(0.9);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.loginfy .loginfy-popup-modal-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  color: var(--jltmapfy-popup-color);
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  opacity: 0.5;
+}
+.loginfy .loginfy-popup-modal-close:hover {
+  opacity: 1;
+}
+.loginfy .loginfy-popup-modal-footer {
+  width: 100%;
+  height: 225px;
+  max-height: 225px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px 0;
+}
+.loginfy .loginfy-popup-countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.loginfy .loginfy-popup-countdown-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  line-height: 1.2;
+}
+.loginfy .loginfy-popup-countdown-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.loginfy .loginfy-popup-countdown-time > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.loginfy .loginfy-popup-countdown-time > div > span {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.loginfy .loginfy-popup-countdown-time > div > span:nth-child(1) {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  height: 40px;
+  width: 45px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.loginfy .loginfy-popup-countdown-time > div > span:nth-child(2) {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.loginfy .loginfy-popup-countdown-time > span {
+  font-size: 50px;
+  color: white;
+  margin-top: -25px;
+}
+.loginfy .loginfy-popup-button {
+  height: 50px;
+  background: var(--loginfy-popup-color);
+  color: #222;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+  padding: 0 30px;
+  margin: 20px 0;
+  transition: 0.2s;
+  position: relative;
+  text-decoration: none;
+}
+.loginfy .loginfy-popup-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+.loginfy .loginfy-popup-button:hover {
+  color: white;
+}
+.loginfy .loginfy-popup-button:hover:after {
+  width: 100%;
+}
+.loginfy .loginfy-wwc > p {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+.loginfy .loginfy-wwc-content {
+  margin-bottom: 25px;
+  color: #646970;
+}
+@media (max-width: 576px) {
+  .loginfy .loginfy-popup-countdown {
+    transform: scale(0.99);
+  }
+}
+.loginfy .loginfy-system-info-page h2 {
+  padding-top: 15px;
+}
+.loginfy .loginfy-log-file {
+  background: #0085ba !important;
+  border-color: #0073aa #006799 #006799 !important;
+  -webkit-box-shadow: 0 1px 0 #006799 !important;
+  box-shadow: 0 1px 0 #006799 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+.loginfy .loginfy-file-spinner {
+  padding: 5px;
+  display: none;
+}
+.loginfy .loginfy-file-text {
+  padding: 5px;
+  display: none;
+  color: #009306;
+}
+
+/*# sourceMappingURL=loginfy-sdk.css.map*/

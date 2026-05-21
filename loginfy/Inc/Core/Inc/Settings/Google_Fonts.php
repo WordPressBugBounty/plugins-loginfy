@@ -48,7 +48,7 @@ class Google_Fonts extends Customize_Model {
          */
         \LOGINFY::createSection( $this->prefix, [
             'assign' => 'jlt_loginfy_customizer_fonts_section',
-            'title'  => __( 'Google Fonts', 'loginfy' ),
+            'title'  => 'Google Fonts',
             'fields' => $fonts_field,
         ] );
     }

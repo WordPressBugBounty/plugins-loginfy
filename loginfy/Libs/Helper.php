@@ -141,7 +141,7 @@ if ( !class_exists( 'Helper' ) ) {
                 'end_date'         => $end_data,
                 'counter_time'     => '',
                 'is_campaign'      => 'false',
-                'button_text'      => __( 'Get Premium', 'loginfy' ),
+                'button_text'      => 'Get Premium',
                 'button_url'       => 'https://wpadminify.com/loginfy/pricing',
                 'btn_color'        => '#CC22FF',
                 'notice'           => '',
@@ -374,16 +374,16 @@ if ( !class_exists( 'Helper' ) ) {
         // Upgrade to Pro Notice
         public static function loginfy_upgrade_pro( $custom_message = '' ) {
             if ( empty( $custom_message ) ) {
-                $pro_content = sprintf( __( '<strong>Unlock this feature</strong> .', 'loginfy' ) );
+                $pro_content = '<strong>Unlock this feature</strong> .';
             } else {
                 $pro_content = $custom_message;
             }
             $upgrade_notice_msg = sprintf(
-                __( '<div class="loginfy-pro-notice"> %1$s <p> %2$s <a href="%3$s" target="_blank">%4$s</a>  </p></div>', 'loginfy' ),
+                '<div class="loginfy-pro-notice"> %1$s <p> %2$s <a href="%3$s" target="_blank">%4$s</a>  </p></div>',
                 self::jlt_loginfy_upgrade_pro_icon(),
                 self::wp_kses_custom( $pro_content ),
                 esc_url( 'https://wpadminify.com/loginfy/pricing' ),
-                __( 'Upgrade to Pro Now!', 'loginfy' )
+                'Upgrade to Pro Now!'
             );
             return self::wp_kses_custom( $upgrade_notice_msg );
         }

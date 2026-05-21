@@ -381,8 +381,9 @@ class Pro_Upgrade {
 			return false;
 		}
 
-		$data = array_map('str_getcsv', explode("
-", $response));
+		$data = array_map(function ($line) {
+			return str_getcsv($line, ',', '"', '\\');
+		}, explode("\n", $response));
 
 		$header = array_shift($data);
 

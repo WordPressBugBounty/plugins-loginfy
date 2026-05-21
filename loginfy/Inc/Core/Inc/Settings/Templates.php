@@ -57,12 +57,12 @@ class Templates extends Customize_Model {
 			$this->prefix,
 			[
 				'assign' => 'jlt_loginfy_customizer_template_section',
-				'title'  => __( 'Templates', 'loginfy' ),
+				'title'  => 'Templates',
 				'fields' => [
 					[
 						'id'      => 'templates',
 						'type'    => 'image_select',
-						'title'   => __( 'Templates', 'loginfy' ),
+						'title'   => 'Templates',
 						'options' => self::get_default_templates(),
 						'class'   => loginfy()->can_use_premium_code__premium_only() ? 'upgrade-to-pro' : '',
 						'default' => $this->get_default_field( 'templates' ),

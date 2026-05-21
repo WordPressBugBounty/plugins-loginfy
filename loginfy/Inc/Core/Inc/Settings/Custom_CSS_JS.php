@@ -27,8 +27,8 @@ class Custom_CSS_JS extends Customize_Model {
 			'id'       => 'jlt_loginfy_customizer_custom_css',
 			'type'     => 'code_editor',
 			'title'    => 'CSS Editor',
-			'subtitle' => sprintf( __( 'Custom CSS doesn\'t work on live. Save Settings and Preview %1$s login%2$s page or hit refresh after save Customer.', 'loginfy' ), '<a href="' . wp_login_url() . '"title="Login" target="_blank">', '</a>' ),
-			'desc'     => __( 'Don\'t place &lt;style&gt;&lt;/style&gt; tag inside editor.', 'loginfy' ),
+			'subtitle' => sprintf( 'Custom CSS doesn\'t work on live. Save Settings and Preview %1$s login%2$s page or hit refresh after save Customer.', '<a href="' . wp_login_url() . '"title="Login" target="_blank">', '</a>' ),
+			'desc'     => 'Don\'t place &lt;style&gt;&lt;/style&gt; tag inside editor.',
 			'settings' => [
 				'theme' => 'monokai',
 				'mode'  => 'css',
@@ -40,9 +40,9 @@ class Custom_CSS_JS extends Customize_Model {
 		$custom_css_js_fields[] = [
 			'id'       => 'jlt_loginfy_customizer_custom_js',
 			'type'     => 'code_editor',
-			'title'    => __( 'JS Editor', 'loginfy' ),
-			'subtitle' => sprintf( __( 'Custom JS doesn\'t work on live. Save Settings and Preview %1$s login%2$s page or hit refresh after save Customer.', 'loginfy' ), '<a href="' . wp_login_url() . '"title="Login" target="_blank">', '</a>' ),
-			'desc'     => __( 'Don\'t place &lt;script&gt;&lt;/script&gt; tag inside editor.', 'loginfy' ),
+			'title'    => 'JS Editor',
+			'subtitle' => sprintf( 'Custom JS doesn\'t work on live. Save Settings and Preview %1$s login%2$s page or hit refresh after save Customer.', '<a href="' . wp_login_url() . '"title="Login" target="_blank">', '</a>' ),
+			'desc'     => 'Don\'t place &lt;script&gt;&lt;/script&gt; tag inside editor.',
 			'settings' => [
 				'theme' => 'dracula',
 				'mode'  => 'javascript',
@@ -67,7 +67,7 @@ class Custom_CSS_JS extends Customize_Model {
 			$this->prefix,
 			[
 				'assign' => 'jlt_loginfy_customizer_custom_css_js_section',
-				'title'  => __( 'Custom CSS & JS', 'loginfy' ),
+				'title'  => 'Custom CSS & JS',
 				'fields' => $custom_css_js_fields,
 			]
 		);

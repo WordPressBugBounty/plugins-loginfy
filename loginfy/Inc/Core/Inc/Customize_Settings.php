@@ -37,37 +37,6 @@ if ( ! class_exists( 'Customize_Settings' ) ) {
 		}
 
 
-		public function sync_settings_from_adminify() {
-
-			// Already Synceed? bail Early
-			if ( get_option( $this->prefix . '_is_synced', false ) ) return;
-
-			// Adminify Settings Class
-			$loginfy_login_customizer_class = \WPAdminify\Inc\Admin\AdminSettings::get_instance();
-
-			// Adminify All Settings
-			$loginfy_login_customizer = $loginfy_login_customizer_class->get();
-
-			// Get This Module Settings
-			$updated_adminify_keys = [];
-			foreach( $loginfy_login_customizer as $opt_name => $option_val ){
-				$key = str_replace("jltwp_adminify_", "jlt_loginfy_", $opt_name);
-				$updated_adminify_keys[$key] = $option_val;
-			}
-
-			// Save The Settings
-			update_option( $this->prefix,  $updated_adminify_keys);	// Replaced existing keys by new keys
-
-			// Cleanup Adminify Data & Save
-			$module_removed_settings = array_diff_key( $loginfy_login_customizer, $this->get_defaults() );
-			unset( $module_removed_settings['login_customizer'] );
-			update_option( 'jltwp_adminify_login', $module_removed_settings );
-
-			// Operation Done
-			update_option( $this->prefix . '_is_synced', true );
-		}
-
-
 		protected function get_defaults() {
 			return $this->defaults;
 		}

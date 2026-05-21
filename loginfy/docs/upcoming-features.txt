@@ -1,0 +1,28 @@
+Logo Designer Features:
+    - Login Form Animation:https://share.cleanshot.com/r3LY6cSh
+    - Rename Login Page: https://share.cleanshot.com/2QfRbBZD
+    - Change Google Fonts Screenshot: https://share.cleanshot.com/WTCDpfSV
+    - Google Re-captcha: https://share.cleanshot.com/PVlPrXDs
+    - Export/Import Settings: https://share.cleanshot.com/x9dDxMg9
+
+Loginpress Features:
+    - Login Logout Menu (FREE)
+    - Social Login
+    - Login Widget
+    - Login Redirects
+    - Limit Login Attempts
+    - Hide Login
+    - Auto Login
+
+Fluent Auth Features:
+    https://wordpress.org/plugins/fluent-security/
+    - Two-Factor Authentication for Login
+    - Magic Login via Email
+    - Social Login / Register
+    - Limit Login Attempts
+    - Dynamic Login Redirects
+    - Detailed Audit Logs
+    - Core Security Enhancement
+    - Security Email Notifications
+    - Super Fast Solution
+    - Restrict /wp-admin for low level user roles

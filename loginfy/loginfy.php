@@ -2,11 +2,11 @@
 
 /**
  * Plugin Name: Loginfy
- * Plugin URI:  https://jeweltheme.com
+ * Plugin URI:  https://wpadminify.com/loginfy
  * Description: WordPress Login Page Customizer Plugin
- * Version:     1.0.4.0
- * Author:      Jewel Theme
- * Author URI:  https://wpadminify.com/loginfy
+ * Version:     1.0.5
+ * Author:      Pixar Labs
+ * Author URI:  https://pixarlabs.com
  * Text Domain: loginfy
  * Domain Path: languages/
  * License:     GPLv3 or later

@@ -67,8 +67,8 @@ if ( ! class_exists( 'LOGINFY_Setup' ) ) {
       // Init action
       do_action( 'loginfy_init' );
 
-      // Setup textdomain
-      self::textdomain();
+      // Setup textdomain on init to avoid loading translations too early
+      add_action( 'init', array( 'LOGINFY_Setup', 'textdomain' ) );
 
       add_action( 'after_setup_theme', array( 'LOGINFY_Setup', 'setup' ) );
       add_action( 'init', array( 'LOGINFY_Setup', 'setup' ) );

@@ -57,9 +57,9 @@ class Background_Section extends Customize_Model {
             'id'      => 'jlt_loginfy_login_bg_type',
             'type'    => 'button_set',
             'options' => [
-                'color_image' => __( 'Color/Image', 'loginfy' ),
-                'video'       => __( 'Video', 'loginfy' ),
-                'slideshow'   => __( 'Slideshow', 'loginfy' ),
+                'color_image' => 'Color/Image',
+                'video'       => 'Video',
+                'slideshow'   => 'Slideshow',
             ],
             'default' => $this->get_default_field( 'jlt_loginfy_login_bg_type' ),
         ];
@@ -67,8 +67,8 @@ class Background_Section extends Customize_Model {
             'id'         => 'jlt_loginfy_login_bg_color_opt',
             'type'       => 'button_set',
             'options'    => [
-                'color'    => __( 'Color ', 'loginfy' ),
-                'gradient' => __( 'Gradient', 'loginfy' ),
+                'color'    => 'Color',
+                'gradient' => 'Gradient',
             ],
             'default'    => $this->get_default_field( 'jlt_loginfy_login_bg_color_opt' ),
             'dependency' => [
@@ -92,7 +92,7 @@ class Background_Section extends Customize_Model {
         ];
         $bg_fields[] = [
             'type'       => 'notice',
-            'title'      => __( 'Background', 'loginfy' ),
+            'title'      => 'Background',
             'style'      => 'warning',
             'content'    => Helper::loginfy_upgrade_pro(),
             'dependency' => [
@@ -111,10 +111,10 @@ class Background_Section extends Customize_Model {
         $bg_fields[] = [
             'id'      => 'jlt_loginfy_login_bg_overlay_type',
             'type'    => 'button_set',
-            'title'   => __( 'Overlay', 'loginfy' ),
+            'title'   => 'Overlay',
             'options' => [
-                'color'    => __( 'Color ', 'loginfy' ),
-                'gradient' => __( 'Gradient', 'loginfy' ),
+                'color'    => 'Color',
+                'gradient' => 'Gradient',
             ],
             'default' => $this->get_default_field( 'jlt_loginfy_login_bg_overlay_type' ),
         ];
@@ -143,7 +143,7 @@ class Background_Section extends Customize_Model {
         $bg_fields[] = [
             'id'         => 'jlt_loginfy_login_overlay_opacity',
             'type'       => 'slider',
-            'title'      => __( 'Overlay Opacity', 'loginfy' ),
+            'title'      => 'Overlay Opacity',
             'dependency' => [
                 'jlt_loginfy_login_bg_overlay_type',
                 '!=',
@@ -165,7 +165,7 @@ class Background_Section extends Customize_Model {
          */
         \LOGINFY::createSection( $this->prefix, [
             'assign' => 'jlt_loginfy_customizer_bg_section',
-            'title'  => __( 'Background', 'loginfy' ),
+            'title'  => 'Background',
             'fields' => $bg_fields,
         ] );
     }
